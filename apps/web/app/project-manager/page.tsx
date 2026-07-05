@@ -99,11 +99,11 @@ export default function ProjectManagerPage() {
     async function load() {
       try {
         const [reportResponse, factsResponse] = await Promise.all([
-          apiFetch<DailyReportResponse>("/reports/daily"),
+          apiFetch<{ success: boolean; data: DailyReportResponse }>("/reports/daily"),
           apiFetch<{ success: boolean; data: DailyFact[] }>("/daily-facts"),
         ]);
         if (cancelled) return;
-        setReport(reportResponse);
+        setReport(reportResponse.data);
         setFacts(factsResponse.data);
       } catch (err) {
         if (err instanceof ApiError && (err.status === 401)) {

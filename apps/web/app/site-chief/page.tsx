@@ -117,12 +117,12 @@ export default function SiteChiefPage() {
         const [factsResponse, plansResponse, reportResponse] = await Promise.all([
           apiFetch<{ success: boolean; data: DailyFact[] }>("/daily-facts"),
           apiFetch<{ success: boolean; data: DailyPlan[] }>("/daily-plans"),
-          apiFetch<DailyReportResponse>("/reports/daily"),
+          apiFetch<{ success: boolean; data: DailyReportResponse }>("/reports/daily"),
         ]);
         if (cancelled) return;
         setFacts(factsResponse.data);
         setPlans(plansResponse.data);
-        setReport(reportResponse);
+        setReport(reportResponse.data);
       } catch (err) {
         if (err instanceof ApiError && (err.status === 401)) {
           window.location.href = "/login";

@@ -145,7 +145,7 @@ export default function DailyReportPage() {
     async function loadReport() {
       try {
         setLoading(true);
-        const response = await apiFetch<DailyReportResponse>(
+        const response = await apiFetch<{ success: boolean; data: DailyReportResponse }>(
           `/reports/daily${buildQuery({
             dateFrom,
             dateTo,
@@ -157,9 +157,9 @@ export default function DailyReportPage() {
           })}`
         );
         if (cancelled) return;
-        setRows(response.rows);
-        setSummary(response.summary);
-        setSelectedRowId((current) => current || response.rows[0]?.dailyFactId || "");
+        setRows(response.data.rows);
+        setSummary(response.data.summary);
+        setSelectedRowId((current) => current || response.data.rows[0]?.dailyFactId || "");
       } catch (err) {
         if (err instanceof ApiError && (err.status === 401)) {
           window.location.href = "/login";
