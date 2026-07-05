@@ -9,5 +9,8 @@
     "build": "pnpm -r build",
     "typecheck": "pnpm -r typecheck",
     "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
   }
 }
