@@ -42,7 +42,7 @@ export default function AdminUsersPage() {
         setUsers(response.data);
         setSelectedUserId((current) => current || response.data[0]?.id || "");
       } catch (err) {
-        if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+        if (err instanceof ApiError && (err.status === 401)) {
           window.location.href = "/login";
           return;
         }

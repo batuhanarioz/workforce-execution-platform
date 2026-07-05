@@ -114,7 +114,7 @@ export default function ApprovalsPage() {
         setFacts(factsResponse.data);
         setPlans(plansResponse.data);
       } catch (err) {
-        if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+        if (err instanceof ApiError && (err.status === 401)) {
           router.replace("/login");
           return;
         }
@@ -138,7 +138,7 @@ export default function ApprovalsPage() {
         );
         setHistory(response.data);
       } catch (err) {
-        if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+        if (err instanceof ApiError && (err.status === 401)) {
           router.replace("/login");
           return;
         }
@@ -183,7 +183,7 @@ export default function ApprovalsPage() {
       setHistory(refreshedHistory.data);
       setMessage(strings.actionCompleted);
     } catch (err) {
-      if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+      if (err instanceof ApiError && (err.status === 401)) {
         router.replace("/login");
         return;
       }

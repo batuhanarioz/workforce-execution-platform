@@ -157,7 +157,7 @@ export default function HeadOfMasterPage() {
         setAssignmentPlanId((current) => current || plansResponse.data[0]?.id || "");
         setAssignmentCrewId((current) => current || crewsResponse.data[0]?.id || "");
       } catch (err) {
-        if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+        if (err instanceof ApiError && (err.status === 401)) {
           window.location.href = "/login";
           return;
         }
@@ -199,7 +199,7 @@ export default function HeadOfMasterPage() {
       setCrewName("");
       await refreshLists();
     } catch (err) {
-      if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+      if (err instanceof ApiError && (err.status === 401)) {
         window.location.href = "/login";
         return;
       }
@@ -226,7 +226,7 @@ export default function HeadOfMasterPage() {
       setMessage(locale === "en" ? "Assignment saved." : "Atama kaydedildi.");
       await refreshLists();
     } catch (err) {
-      if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+      if (err instanceof ApiError && (err.status === 401)) {
         window.location.href = "/login";
         return;
       }

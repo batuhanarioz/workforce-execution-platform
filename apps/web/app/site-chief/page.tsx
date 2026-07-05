@@ -124,7 +124,7 @@ export default function SiteChiefPage() {
         setPlans(plansResponse.data);
         setReport(reportResponse);
       } catch (err) {
-        if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+        if (err instanceof ApiError && (err.status === 401)) {
           window.location.href = "/login";
           return;
         }

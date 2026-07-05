@@ -105,7 +105,7 @@ export default function DashboardPage() {
           workerTypes: snapshot.data.workerTypes.length,
         });
       } catch (err) {
-        if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+        if (err instanceof ApiError && (err.status === 401)) {
           router.replace("/login");
           return;
         }

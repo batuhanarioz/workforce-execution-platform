@@ -140,7 +140,7 @@ export default function DailyPlansPage() {
         setPlans(planResponse.data);
         setDirectory(directoryResponse.data);
       } catch (err) {
-        if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+        if (err instanceof ApiError && (err.status === 401)) {
           router.replace("/login");
           return;
         }
@@ -274,7 +274,7 @@ export default function DailyPlansPage() {
       setPlans(refreshed.data);
       resetForm();
     } catch (err) {
-      if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+      if (err instanceof ApiError && (err.status === 401)) {
         router.replace("/login");
         return;
       }
@@ -297,7 +297,7 @@ export default function DailyPlansPage() {
       setPlans(refreshed.data);
       setMessage(common.planAssigned);
     } catch (err) {
-      if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+      if (err instanceof ApiError && (err.status === 401)) {
         router.replace("/login");
         return;
       }
@@ -316,7 +316,7 @@ export default function DailyPlansPage() {
       setPlans(refreshed.data);
       setMessage(action === "start" ? common.planInProgress : common.planCancelled);
     } catch (err) {
-      if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+      if (err instanceof ApiError && (err.status === 401)) {
         router.replace("/login");
         return;
       }

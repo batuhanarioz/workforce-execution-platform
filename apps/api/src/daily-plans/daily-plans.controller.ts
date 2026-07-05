@@ -13,7 +13,7 @@ import { DailyPlansService } from "./daily-plans.service";
 export class DailyPlansController {
   constructor(@Inject(DailyPlansService) private readonly dailyPlansService: DailyPlansService) {}
 
-  @Roles(UserRole.TECH_OFFICE, UserRole.HEAD_OF_MASTER, UserRole.ADMIN)
+  @Roles(UserRole.TECH_OFFICE, UserRole.HEAD_OF_MASTER, UserRole.SITE_CHIEF, UserRole.PROJECT_MANAGER, UserRole.ADMIN)
   @LocationScope(AccessScope.ASSIGNED)
   @Get()
   list() {

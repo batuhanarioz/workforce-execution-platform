@@ -13,7 +13,7 @@ import { DailyFactsService } from "./daily-facts.service";
 export class DailyFactsController {
   constructor(@Inject(DailyFactsService) private readonly dailyFactsService: DailyFactsService) {}
 
-  @Roles(UserRole.HEAD_OF_MASTER, UserRole.ADMIN)
+  @Roles(UserRole.HEAD_OF_MASTER, UserRole.SITE_CHIEF, UserRole.PROJECT_MANAGER, UserRole.ADMIN)
   @LocationScope(AccessScope.ASSIGNED)
   @Get()
   list() {

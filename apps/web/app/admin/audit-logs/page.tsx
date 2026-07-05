@@ -207,7 +207,7 @@ export default function AuditLogsPage() {
           setSelectedId(null);
         }
       } catch (err) {
-        if (err instanceof ApiError && (err.status === 401 || err.status === 403)) {
+        if (err instanceof ApiError && (err.status === 401)) {
           window.location.href = "/login";
           return;
         }
