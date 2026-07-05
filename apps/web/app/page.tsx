@@ -24,7 +24,7 @@ export default function Page() {
           {
             title: "Execution",
             description: "Mobile fact entry and sync.",
-            href: "/login",
+            href: "/head-of-master",
             action: "Execution",
           },
           {
@@ -52,7 +52,7 @@ export default function Page() {
           {
             title: "Yürütme",
             description: "Mobil fiş ve senkron.",
-            href: "/login",
+            href: "/head-of-master",
             action: "Yürütme",
           },
           {

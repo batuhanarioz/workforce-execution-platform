@@ -328,6 +328,7 @@ export default function DailyPlansPage() {
   const selectedTypeSubTypes = masterData?.subTypeOfWorks.filter((item) => item.typeOfWorkId === form.typeOfWorkId) ?? [];
   const selectedSubTypeSubTypes = masterData?.subSubTypeOfWorks.filter((item) => item.subTypeOfWorkId === form.subTypeOfWorkId) ?? [];
   const homUsers = directory.filter((user) => user.role === "HEAD_OF_MASTER");
+  const canManagePlans = currentUser?.role === "TECH_OFFICE" || currentUser?.role === "ADMIN";
   const statusCounts = useMemo(() => {
     return plans.reduce(
       (acc, plan) => {
@@ -390,6 +391,15 @@ export default function DailyPlansPage() {
         </article>
       </section>
 
+      {!canManagePlans ? (
+        <section className="card pad" style={{ marginTop: 18 }}>
+          <div className="notice">
+            {locale === "en"
+              ? "Your role can view daily plans but cannot create, edit, or assign them. This is a read-only list."
+              : "Rolün günlük planları görüntüleyebilir ama oluşturamaz, düzenleyemez veya atayamaz. Bu salt okunur bir liste."}
+          </div>
+        </section>
+      ) : (
       <section className="split" style={{ marginTop: 18 }}>
         <div className="card pad">
             <div className="card-header">
@@ -636,6 +646,7 @@ export default function DailyPlansPage() {
 
         </div>
       </section>
+      )}
 
       <section className="card pad" style={{ marginTop: 18 }}>
         <div className="card-header">
