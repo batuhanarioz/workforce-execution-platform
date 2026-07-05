@@ -1,0 +1,13 @@
+{
+  "name": "workforce-execution-platform",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:web": "pnpm --filter @wfp/web dev",
+    "dev:mobile": "pnpm --filter @wfp/mobile start",
+    "dev:api": "pnpm --filter @wfp/api start:dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint"
+  }
+}

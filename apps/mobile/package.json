@@ -1,0 +1,25 @@
+{
+  "name": "@wfp/mobile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "typecheck": "tsc --noEmit",
+    "test": "../api/node_modules/.bin/tsx test/mobile-scenarios.test.ts"
+  },
+  "dependencies": {
+    "expo": "^57.0.1",
+    "expo-secure-store": "^57.0.0",
+    "expo-sqlite": "^57.0.0",
+    "react": "^19.2.7",
+    "react-native": "^0.86.0",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "@types/react": "^19.2.17",
+    "typescript": "^6.0.3"
+  }
+}

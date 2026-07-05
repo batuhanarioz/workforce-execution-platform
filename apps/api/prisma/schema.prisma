@@ -1,0 +1,343 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  TECH_OFFICE
+  HEAD_OF_MASTER
+  SITE_CHIEF
+  PROJECT_MANAGER
+  ADMIN
+}
+
+enum DailyPlanStatus {
+  DRAFT
+  ASSIGNED
+  IN_PROGRESS
+  FACT_SUBMITTED
+  APPROVED_BY_HEAD_OF_MASTER
+  APPROVED_BY_SITE_CHIEF
+  APPROVED_BY_PROJECT_MANAGER
+  REPORTED
+  RETURNED_FOR_REVISION
+  REJECTED
+  CANCELLED
+}
+
+enum DailyFactStatus {
+  DRAFT
+  SUBMITTED
+  APPROVED_BY_HEAD_OF_MASTER
+  APPROVED_BY_SITE_CHIEF
+  APPROVED_BY_PROJECT_MANAGER
+  RETURNED_FOR_REVISION
+  REJECTED
+}
+
+enum ActualWorkStatus {
+  COMPLETED
+  PARTIALLY_COMPLETED
+  NOT_STARTED
+}
+
+enum ApprovalAction {
+  APPROVED
+  RETURNED
+  REJECTED
+}
+
+enum AccessScope {
+  OWN
+  ASSIGNED
+  LOCATION
+  PROJECT
+  ALL
+}
+
+model Role {
+  id          String   @id @default(cuid())
+  name        UserRole @unique
+  description String?
+  users       User[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("roles")
+}
+
+model Location {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String
+  region      String?
+  isActive    Boolean  @default(true)
+  projects    Project[]
+  users       UserLocationAssignment[]
+  dailyPlans  DailyPlan[]
+  crews       Crew[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("locations")
+}
+
+model User {
+  id          String   @id @default(cuid())
+  fullName    String
+  email       String   @unique
+  passwordHash String
+  roleId      String
+  role        Role     @relation(fields: [roleId], references: [id], onDelete: Restrict)
+  isActive    Boolean  @default(true)
+  tokenVersion Int     @default(1)
+  assignments UserLocationAssignment[]
+  createdPlans DailyPlan[] @relation("DailyPlanCreatedBy")
+  assignedPlans DailyPlan[] @relation("DailyPlanAssignedHead")
+  submittedFacts DailyFact[] @relation("DailyFactSubmittedBy")
+  approvals   ApprovalHistory[] @relation("ApprovalHistoryApprover")
+  audits      AuditLog[] @relation("AuditLogUser")
+  notifications Notification[] @relation("NotificationRecipient")
+  crews       Crew[] @relation("CrewHeadOfMaster")
+  assignedWorkerAssignments WorkerAssignment[] @relation("WorkerAssignmentAssignedBy")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("users")
+}
+
+model UserLocationAssignment {
+  id            String     @id @default(cuid())
+  userId        String
+  locationId    String
+  assignmentType AccessScope
+  isPrimary     Boolean    @default(false)
+  user          User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  location      Location   @relation(fields: [locationId], references: [id], onDelete: Cascade)
+  createdAt     DateTime   @default(now())
+
+  @@index([userId, locationId])
+  @@unique([userId, locationId])
+  @@map("user_location_assignments")
+}
+
+model Project {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String
+  locationId  String
+  isActive    Boolean  @default(true)
+  location    Location @relation(fields: [locationId], references: [id], onDelete: Restrict)
+  dailyPlans  DailyPlan[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("projects")
+}
+
+model TypeOfWork {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String
+  sortOrder   Int
+  isActive    Boolean  @default(true)
+  subTypeOfWorks SubTypeOfWork[]
+  dailyPlans  DailyPlan[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("type_of_works")
+}
+
+model SubTypeOfWork {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String
+  typeOfWorkId String
+  sortOrder   Int
+  isActive    Boolean  @default(true)
+  typeOfWork  TypeOfWork @relation(fields: [typeOfWorkId], references: [id], onDelete: Restrict)
+  subSubTypeOfWorks SubSubTypeOfWork[]
+  dailyPlans  DailyPlan[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("sub_type_of_works")
+}
+
+model SubSubTypeOfWork {
+  id            String   @id @default(cuid())
+  code          String   @unique
+  name          String
+  subTypeOfWorkId String
+  unit          String
+  typeCode      String
+  zzzCode       String?
+  isActive      Boolean  @default(true)
+  subTypeOfWork SubTypeOfWork @relation(fields: [subTypeOfWorkId], references: [id], onDelete: Restrict)
+  dailyPlans    DailyPlan[]
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("sub_sub_type_of_works")
+}
+
+model WorkerType {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  isActive    Boolean  @default(true)
+  crews       Crew[]
+  workerAssignments WorkerAssignment[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("worker_types")
+}
+
+model ZzzDetail {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String
+  isActive    Boolean  @default(true)
+  dailyFacts  DailyFact[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("zzz_details")
+}
+
+model DailyPlan {
+  id                String          @id @default(cuid())
+  planDate          DateTime
+  locationId        String
+  projectId         String
+  typeOfWorkId      String
+  subTypeOfWorkId   String
+  subSubTypeOfWorkId String
+  unit              String
+  plannedQuantity   Decimal         @db.Decimal(18, 3)
+  plannedManDay     Decimal         @db.Decimal(18, 3)
+  assignedHeadOfMasterId String?
+  createdByUserId   String
+  status            DailyPlanStatus
+  note              String?
+  version           Int             @default(1)
+  location          Location        @relation(fields: [locationId], references: [id], onDelete: Restrict)
+  project           Project         @relation(fields: [projectId], references: [id], onDelete: Restrict)
+  typeOfWork        TypeOfWork      @relation(fields: [typeOfWorkId], references: [id], onDelete: Restrict)
+  subTypeOfWork     SubTypeOfWork   @relation(fields: [subTypeOfWorkId], references: [id], onDelete: Restrict)
+  subSubTypeOfWork  SubSubTypeOfWork @relation(fields: [subSubTypeOfWorkId], references: [id], onDelete: Restrict)
+  createdBy         User            @relation("DailyPlanCreatedBy", fields: [createdByUserId], references: [id], onDelete: Restrict)
+  assignedHeadOfMaster User?        @relation("DailyPlanAssignedHead", fields: [assignedHeadOfMasterId], references: [id], onDelete: SetNull)
+  workerAssignments WorkerAssignment[]
+  dailyFact         DailyFact?
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+
+  @@map("daily_plans")
+}
+
+model Crew {
+  id           String   @id @default(cuid())
+  name         String
+  locationId   String
+  headOfMasterId String
+  workerTypeId String
+  isActive     Boolean  @default(true)
+  location     Location @relation(fields: [locationId], references: [id], onDelete: Restrict)
+  headOfMaster User     @relation("CrewHeadOfMaster", fields: [headOfMasterId], references: [id], onDelete: Restrict)
+  workerType   WorkerType @relation(fields: [workerTypeId], references: [id], onDelete: Restrict)
+  workerAssignments WorkerAssignment[]
+  createdAt    DateTime @default(now())
+
+  @@map("crews")
+}
+
+model WorkerAssignment {
+  id              String   @id @default(cuid())
+  dailyPlanId      String
+  crewId           String
+  workerTypeId     String
+  workerCount      Int
+  assignedByUserId String
+  dailyPlan        DailyPlan @relation(fields: [dailyPlanId], references: [id], onDelete: Cascade)
+  crew             Crew      @relation(fields: [crewId], references: [id], onDelete: Cascade)
+  workerType       WorkerType @relation(fields: [workerTypeId], references: [id], onDelete: Restrict)
+  assignedBy       User      @relation("WorkerAssignmentAssignedBy", fields: [assignedByUserId], references: [id], onDelete: Restrict)
+  createdAt        DateTime  @default(now())
+
+  @@map("worker_assignments")
+}
+
+model DailyFact {
+  id               String          @id @default(cuid())
+  dailyPlanId      String          @unique
+  factQuantity     Decimal         @db.Decimal(18, 3)
+  factManDay       Decimal         @db.Decimal(18, 3)
+  overtime         Decimal         @db.Decimal(18, 3)
+  actualStatus     ActualWorkStatus
+  comment          String?
+  zzzDetailId      String?
+  submittedByUserId String
+  status           DailyFactStatus
+  submittedAt      DateTime?
+  version          Int             @default(1)
+  dailyPlan        DailyPlan       @relation(fields: [dailyPlanId], references: [id], onDelete: Cascade)
+  zzzDetail        ZzzDetail?      @relation(fields: [zzzDetailId], references: [id], onDelete: SetNull)
+  submittedBy      User            @relation("DailyFactSubmittedBy", fields: [submittedByUserId], references: [id], onDelete: Restrict)
+  approvals        ApprovalHistory[]
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+
+  @@map("daily_facts")
+}
+
+model ApprovalHistory {
+  id             String   @id @default(cuid())
+  dailyFactId    String
+  approverUserId String
+  approverRole   UserRole
+  action         ApprovalAction
+  comment        String?
+  dailyFact      DailyFact @relation(fields: [dailyFactId], references: [id], onDelete: Cascade)
+  approver       User      @relation("ApprovalHistoryApprover", fields: [approverUserId], references: [id], onDelete: Restrict)
+  createdAt      DateTime  @default(now())
+
+  @@map("approval_history")
+}
+
+model Notification {
+  id             String   @id @default(cuid())
+  recipientUserId String
+  title          String
+  body           String
+  isRead         Boolean  @default(false)
+  recipient      User     @relation("NotificationRecipient", fields: [recipientUserId], references: [id], onDelete: Cascade)
+  createdAt      DateTime @default(now())
+
+  @@map("notifications")
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  userId     String?
+  entityType String
+  entityId   String
+  action     String
+  source     String   @default("api")
+  locationId String?
+  requestId  String?
+  oldValue   Json?
+  newValue   Json?
+  user       User?    @relation("AuditLogUser", fields: [userId], references: [id], onDelete: Restrict)
+  createdAt  DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([action])
+  @@index([entityType])
+  @@map("audit_logs")
+}

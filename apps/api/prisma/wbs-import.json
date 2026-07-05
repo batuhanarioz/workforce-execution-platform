@@ -1,0 +1,5201 @@
+{
+  "source": "WBS_V3.xlsx",
+  "locations": [
+    {
+      "code": "30DDD",
+      "name": "Location 30DDD"
+    },
+    {
+      "code": "30AAA",
+      "name": "Location 30AAA"
+    },
+    {
+      "code": "30CCC",
+      "name": "Location 30CCC"
+    },
+    {
+      "code": "30EEE",
+      "name": "Location 30EEE"
+    },
+    {
+      "code": "30BBB",
+      "name": "Location 30BBB"
+    },
+    {
+      "code": "30FFF",
+      "name": "Location 30FFF"
+    },
+    {
+      "code": "99UUU",
+      "name": "Location 99UUU"
+    }
+  ],
+  "projects": [
+    {
+      "code": "PRJ-30DDD",
+      "name": "Project 30DDD",
+      "locationCode": "30DDD"
+    },
+    {
+      "code": "PRJ-30AAA",
+      "name": "Project 30AAA",
+      "locationCode": "30AAA"
+    },
+    {
+      "code": "PRJ-30CCC",
+      "name": "Project 30CCC",
+      "locationCode": "30CCC"
+    },
+    {
+      "code": "PRJ-30EEE",
+      "name": "Project 30EEE",
+      "locationCode": "30EEE"
+    },
+    {
+      "code": "PRJ-30BBB",
+      "name": "Project 30BBB",
+      "locationCode": "30BBB"
+    },
+    {
+      "code": "PRJ-30FFF",
+      "name": "Project 30FFF",
+      "locationCode": "30FFF"
+    },
+    {
+      "code": "PRJ-99UUU",
+      "name": "Project 99UUU",
+      "locationCode": "99UUU"
+    }
+  ],
+  "typeOfWorks": [
+    {
+      "code": "TOW-01",
+      "name": "TOW-01",
+      "sortOrder": 1
+    },
+    {
+      "code": "TOW-02",
+      "name": "TOW-02",
+      "sortOrder": 2
+    },
+    {
+      "code": "TOW-03",
+      "name": "TOW-03",
+      "sortOrder": 3
+    },
+    {
+      "code": "TOW-04",
+      "name": "TOW-04",
+      "sortOrder": 4
+    },
+    {
+      "code": "TOW-05",
+      "name": "TOW-05",
+      "sortOrder": 5
+    },
+    {
+      "code": "TOW-06",
+      "name": "TOW-06",
+      "sortOrder": 6
+    },
+    {
+      "code": "TOW-07",
+      "name": "TOW-07",
+      "sortOrder": 7
+    },
+    {
+      "code": "TOW-08",
+      "name": "TOW-08",
+      "sortOrder": 8
+    },
+    {
+      "code": "TOW-09",
+      "name": "TOW-09",
+      "sortOrder": 9
+    },
+    {
+      "code": "TOW-10",
+      "name": "TOW-10",
+      "sortOrder": 10
+    },
+    {
+      "code": "TOW-11",
+      "name": "TOW-11",
+      "sortOrder": 11
+    },
+    {
+      "code": "TOW-12",
+      "name": "TOW-12",
+      "sortOrder": 12
+    },
+    {
+      "code": "TOW-13",
+      "name": "TOW-13",
+      "sortOrder": 13
+    },
+    {
+      "code": "TOW-14",
+      "name": "TOW-14",
+      "sortOrder": 14
+    },
+    {
+      "code": "TOW-15",
+      "name": "TOW-15",
+      "sortOrder": 15
+    },
+    {
+      "code": "TOW-16",
+      "name": "TOW-16",
+      "sortOrder": 16
+    },
+    {
+      "code": "TOW-17",
+      "name": "TOW-17",
+      "sortOrder": 17
+    },
+    {
+      "code": "TOW-18",
+      "name": "TOW-18",
+      "sortOrder": 18
+    },
+    {
+      "code": "TOW-19",
+      "name": "TOW-19",
+      "sortOrder": 19
+    },
+    {
+      "code": "TOW-20",
+      "name": "TOW-20",
+      "sortOrder": 20
+    },
+    {
+      "code": "TOW-21",
+      "name": "TOW-21",
+      "sortOrder": 21
+    },
+    {
+      "code": "TOW-22",
+      "name": "TOW-22",
+      "sortOrder": 22
+    }
+  ],
+  "subTypeOfWorks": [
+    {
+      "code": "STOW-01",
+      "name": "STOW-01",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 1
+    },
+    {
+      "code": "STOW-02",
+      "name": "STOW-02",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 2
+    },
+    {
+      "code": "STOW-03",
+      "name": "STOW-03",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 3
+    },
+    {
+      "code": "STOW-04",
+      "name": "STOW-04",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 4
+    },
+    {
+      "code": "STOW-05",
+      "name": "STOW-05",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 5
+    },
+    {
+      "code": "STOW-06",
+      "name": "STOW-06",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 6
+    },
+    {
+      "code": "STOW-07",
+      "name": "STOW-07",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 7
+    },
+    {
+      "code": "STOW-08",
+      "name": "STOW-08",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 8
+    },
+    {
+      "code": "STOW-09",
+      "name": "STOW-09",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 9
+    },
+    {
+      "code": "STOW-10",
+      "name": "STOW-10",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 10
+    },
+    {
+      "code": "STOW-11",
+      "name": "STOW-11",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 11
+    },
+    {
+      "code": "STOW-12",
+      "name": "STOW-12",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 12
+    },
+    {
+      "code": "STOW-13",
+      "name": "STOW-13",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 13
+    },
+    {
+      "code": "STOW-14",
+      "name": "STOW-14",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 14
+    },
+    {
+      "code": "STOW-15",
+      "name": "STOW-15",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 15
+    },
+    {
+      "code": "STOW-16",
+      "name": "STOW-16",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 16
+    },
+    {
+      "code": "STOW-17",
+      "name": "STOW-17",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 17
+    },
+    {
+      "code": "STOW-18",
+      "name": "STOW-18",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 18
+    },
+    {
+      "code": "STOW-19",
+      "name": "STOW-19",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 19
+    },
+    {
+      "code": "STOW-20",
+      "name": "STOW-20",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 20
+    },
+    {
+      "code": "STOW-21",
+      "name": "STOW-21",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 21
+    },
+    {
+      "code": "STOW-22",
+      "name": "STOW-22",
+      "typeOfWorkCode": "TOW-01",
+      "sortOrder": 22
+    },
+    {
+      "code": "STOW-23",
+      "name": "STOW-23",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 23
+    },
+    {
+      "code": "STOW-24",
+      "name": "STOW-24",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 24
+    },
+    {
+      "code": "STOW-25",
+      "name": "STOW-25",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 25
+    },
+    {
+      "code": "STOW-26",
+      "name": "STOW-26",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 26
+    },
+    {
+      "code": "STOW-27",
+      "name": "STOW-27",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 27
+    },
+    {
+      "code": "STOW-28",
+      "name": "STOW-28",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 28
+    },
+    {
+      "code": "STOW-29",
+      "name": "STOW-29",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 29
+    },
+    {
+      "code": "STOW-30",
+      "name": "STOW-30",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 30
+    },
+    {
+      "code": "STOW-31",
+      "name": "STOW-31",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 31
+    },
+    {
+      "code": "STOW-32",
+      "name": "STOW-32",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 32
+    },
+    {
+      "code": "STOW-33",
+      "name": "STOW-33",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 33
+    },
+    {
+      "code": "STOW-34",
+      "name": "STOW-34",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 34
+    },
+    {
+      "code": "STOW-35",
+      "name": "STOW-35",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 35
+    },
+    {
+      "code": "STOW-36",
+      "name": "STOW-36",
+      "typeOfWorkCode": "TOW-02",
+      "sortOrder": 36
+    },
+    {
+      "code": "STOW-37",
+      "name": "STOW-37",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 37
+    },
+    {
+      "code": "STOW-38",
+      "name": "STOW-38",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 38
+    },
+    {
+      "code": "STOW-39",
+      "name": "STOW-39",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 39
+    },
+    {
+      "code": "STOW-40",
+      "name": "STOW-40",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 40
+    },
+    {
+      "code": "STOW-41",
+      "name": "STOW-41",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 41
+    },
+    {
+      "code": "STOW-42",
+      "name": "STOW-42",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 42
+    },
+    {
+      "code": "STOW-43",
+      "name": "STOW-43",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 43
+    },
+    {
+      "code": "STOW-44",
+      "name": "STOW-44",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 44
+    },
+    {
+      "code": "STOW-45",
+      "name": "STOW-45",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 45
+    },
+    {
+      "code": "STOW-46",
+      "name": "STOW-46",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 46
+    },
+    {
+      "code": "STOW-47",
+      "name": "STOW-47",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 47
+    },
+    {
+      "code": "STOW-48",
+      "name": "STOW-48",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 48
+    },
+    {
+      "code": "STOW-49",
+      "name": "STOW-49",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 49
+    },
+    {
+      "code": "STOW-50",
+      "name": "STOW-50",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 50
+    },
+    {
+      "code": "STOW-51",
+      "name": "STOW-51",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 51
+    },
+    {
+      "code": "STOW-52",
+      "name": "STOW-52",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 52
+    },
+    {
+      "code": "STOW-53",
+      "name": "STOW-53",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 53
+    },
+    {
+      "code": "STOW-54",
+      "name": "STOW-54",
+      "typeOfWorkCode": "TOW-03",
+      "sortOrder": 54
+    },
+    {
+      "code": "STOW-55",
+      "name": "STOW-55",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 55
+    },
+    {
+      "code": "STOW-56",
+      "name": "STOW-56",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 56
+    },
+    {
+      "code": "STOW-57",
+      "name": "STOW-57",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 57
+    },
+    {
+      "code": "STOW-58",
+      "name": "STOW-58",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 58
+    },
+    {
+      "code": "STOW-59",
+      "name": "STOW-59",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 59
+    },
+    {
+      "code": "STOW-60",
+      "name": "STOW-60",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 60
+    },
+    {
+      "code": "STOW-61",
+      "name": "STOW-61",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 61
+    },
+    {
+      "code": "STOW-62",
+      "name": "STOW-62",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 62
+    },
+    {
+      "code": "STOW-63",
+      "name": "STOW-63",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 63
+    },
+    {
+      "code": "STOW-64",
+      "name": "STOW-64",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 64
+    },
+    {
+      "code": "STOW-65",
+      "name": "STOW-65",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 65
+    },
+    {
+      "code": "STOW-66",
+      "name": "STOW-66",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 66
+    },
+    {
+      "code": "STOW-67",
+      "name": "STOW-67",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 67
+    },
+    {
+      "code": "STOW-68",
+      "name": "STOW-68",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 68
+    },
+    {
+      "code": "STOW-69",
+      "name": "STOW-69",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 69
+    },
+    {
+      "code": "STOW-70",
+      "name": "STOW-70",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 70
+    },
+    {
+      "code": "STOW-71",
+      "name": "STOW-71",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 71
+    },
+    {
+      "code": "STOW-72",
+      "name": "STOW-72",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 72
+    },
+    {
+      "code": "STOW-73",
+      "name": "STOW-73",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 73
+    },
+    {
+      "code": "STOW-74",
+      "name": "STOW-74",
+      "typeOfWorkCode": "TOW-04",
+      "sortOrder": 74
+    },
+    {
+      "code": "STOW-75",
+      "name": "STOW-75",
+      "typeOfWorkCode": "TOW-05",
+      "sortOrder": 75
+    },
+    {
+      "code": "STOW-76",
+      "name": "STOW-76",
+      "typeOfWorkCode": "TOW-05",
+      "sortOrder": 76
+    },
+    {
+      "code": "STOW-77",
+      "name": "STOW-77",
+      "typeOfWorkCode": "TOW-05",
+      "sortOrder": 77
+    },
+    {
+      "code": "STOW-78",
+      "name": "STOW-78",
+      "typeOfWorkCode": "TOW-05",
+      "sortOrder": 78
+    },
+    {
+      "code": "STOW-79",
+      "name": "STOW-79",
+      "typeOfWorkCode": "TOW-05",
+      "sortOrder": 79
+    },
+    {
+      "code": "STOW-80",
+      "name": "STOW-80",
+      "typeOfWorkCode": "TOW-05",
+      "sortOrder": 80
+    },
+    {
+      "code": "STOW-81",
+      "name": "STOW-81",
+      "typeOfWorkCode": "TOW-06",
+      "sortOrder": 81
+    },
+    {
+      "code": "STOW-82",
+      "name": "STOW-82",
+      "typeOfWorkCode": "TOW-06",
+      "sortOrder": 82
+    },
+    {
+      "code": "STOW-83",
+      "name": "STOW-83",
+      "typeOfWorkCode": "TOW-06",
+      "sortOrder": 83
+    },
+    {
+      "code": "STOW-84",
+      "name": "STOW-84",
+      "typeOfWorkCode": "TOW-06",
+      "sortOrder": 84
+    },
+    {
+      "code": "STOW-85",
+      "name": "STOW-85",
+      "typeOfWorkCode": "TOW-06",
+      "sortOrder": 85
+    },
+    {
+      "code": "STOW-86",
+      "name": "STOW-86",
+      "typeOfWorkCode": "TOW-06",
+      "sortOrder": 86
+    },
+    {
+      "code": "STOW-87",
+      "name": "STOW-87",
+      "typeOfWorkCode": "TOW-06",
+      "sortOrder": 87
+    },
+    {
+      "code": "STOW-88",
+      "name": "STOW-88",
+      "typeOfWorkCode": "TOW-07",
+      "sortOrder": 88
+    },
+    {
+      "code": "STOW-89",
+      "name": "STOW-89",
+      "typeOfWorkCode": "TOW-07",
+      "sortOrder": 89
+    },
+    {
+      "code": "STOW-90",
+      "name": "STOW-90",
+      "typeOfWorkCode": "TOW-07",
+      "sortOrder": 90
+    },
+    {
+      "code": "STOW-91",
+      "name": "STOW-91",
+      "typeOfWorkCode": "TOW-07",
+      "sortOrder": 91
+    },
+    {
+      "code": "STOW-92",
+      "name": "STOW-92",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 92
+    },
+    {
+      "code": "STOW-93",
+      "name": "STOW-93",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 93
+    },
+    {
+      "code": "STOW-94",
+      "name": "STOW-94",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 94
+    },
+    {
+      "code": "STOW-95",
+      "name": "STOW-95",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 95
+    },
+    {
+      "code": "STOW-96",
+      "name": "STOW-96",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 96
+    },
+    {
+      "code": "STOW-97",
+      "name": "STOW-97",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 97
+    },
+    {
+      "code": "STOW-98",
+      "name": "STOW-98",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 98
+    },
+    {
+      "code": "STOW-99",
+      "name": "STOW-99",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 99
+    },
+    {
+      "code": "STOW-100",
+      "name": "STOW-100",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 100
+    },
+    {
+      "code": "STOW-101",
+      "name": "STOW-101",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 101
+    },
+    {
+      "code": "STOW-102",
+      "name": "STOW-102",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 102
+    },
+    {
+      "code": "STOW-103",
+      "name": "STOW-103",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 103
+    },
+    {
+      "code": "STOW-104",
+      "name": "STOW-104",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 104
+    },
+    {
+      "code": "STOW-105",
+      "name": "STOW-105",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 105
+    },
+    {
+      "code": "STOW-106",
+      "name": "STOW-106",
+      "typeOfWorkCode": "TOW-08",
+      "sortOrder": 106
+    },
+    {
+      "code": "STOW-107",
+      "name": "STOW-107",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 107
+    },
+    {
+      "code": "STOW-108",
+      "name": "STOW-108",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 108
+    },
+    {
+      "code": "STOW-109",
+      "name": "STOW-109",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 109
+    },
+    {
+      "code": "STOW-110",
+      "name": "STOW-110",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 110
+    },
+    {
+      "code": "STOW-111",
+      "name": "STOW-111",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 111
+    },
+    {
+      "code": "STOW-112",
+      "name": "STOW-112",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 112
+    },
+    {
+      "code": "STOW-113",
+      "name": "STOW-113",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 113
+    },
+    {
+      "code": "STOW-114",
+      "name": "STOW-114",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 114
+    },
+    {
+      "code": "STOW-115",
+      "name": "STOW-115",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 115
+    },
+    {
+      "code": "STOW-116",
+      "name": "STOW-116",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 116
+    },
+    {
+      "code": "STOW-117",
+      "name": "STOW-117",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 117
+    },
+    {
+      "code": "STOW-118",
+      "name": "STOW-118",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 118
+    },
+    {
+      "code": "STOW-119",
+      "name": "STOW-119",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 119
+    },
+    {
+      "code": "STOW-120",
+      "name": "STOW-120",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 120
+    },
+    {
+      "code": "STOW-121",
+      "name": "STOW-121",
+      "typeOfWorkCode": "TOW-09",
+      "sortOrder": 121
+    },
+    {
+      "code": "STOW-122",
+      "name": "STOW-122",
+      "typeOfWorkCode": "TOW-10",
+      "sortOrder": 122
+    },
+    {
+      "code": "STOW-123",
+      "name": "STOW-123",
+      "typeOfWorkCode": "TOW-10",
+      "sortOrder": 123
+    },
+    {
+      "code": "STOW-124",
+      "name": "STOW-124",
+      "typeOfWorkCode": "TOW-10",
+      "sortOrder": 124
+    },
+    {
+      "code": "STOW-125",
+      "name": "STOW-125",
+      "typeOfWorkCode": "TOW-11",
+      "sortOrder": 125
+    },
+    {
+      "code": "STOW-126",
+      "name": "STOW-126",
+      "typeOfWorkCode": "TOW-11",
+      "sortOrder": 126
+    },
+    {
+      "code": "STOW-127",
+      "name": "STOW-127",
+      "typeOfWorkCode": "TOW-11",
+      "sortOrder": 127
+    },
+    {
+      "code": "STOW-128",
+      "name": "STOW-128",
+      "typeOfWorkCode": "TOW-11",
+      "sortOrder": 128
+    },
+    {
+      "code": "STOW-129",
+      "name": "STOW-129",
+      "typeOfWorkCode": "TOW-11",
+      "sortOrder": 129
+    },
+    {
+      "code": "STOW-130",
+      "name": "STOW-130",
+      "typeOfWorkCode": "TOW-12",
+      "sortOrder": 130
+    },
+    {
+      "code": "STOW-131",
+      "name": "STOW-131",
+      "typeOfWorkCode": "TOW-12",
+      "sortOrder": 131
+    },
+    {
+      "code": "STOW-132",
+      "name": "STOW-132",
+      "typeOfWorkCode": "TOW-12",
+      "sortOrder": 132
+    },
+    {
+      "code": "STOW-133",
+      "name": "STOW-133",
+      "typeOfWorkCode": "TOW-12",
+      "sortOrder": 133
+    },
+    {
+      "code": "STOW-134",
+      "name": "STOW-134",
+      "typeOfWorkCode": "TOW-12",
+      "sortOrder": 134
+    },
+    {
+      "code": "STOW-135",
+      "name": "STOW-135",
+      "typeOfWorkCode": "TOW-12",
+      "sortOrder": 135
+    },
+    {
+      "code": "STOW-136",
+      "name": "STOW-136",
+      "typeOfWorkCode": "TOW-12",
+      "sortOrder": 136
+    },
+    {
+      "code": "STOW-137",
+      "name": "STOW-137",
+      "typeOfWorkCode": "TOW-12",
+      "sortOrder": 137
+    },
+    {
+      "code": "STOW-138",
+      "name": "STOW-138",
+      "typeOfWorkCode": "TOW-13",
+      "sortOrder": 138
+    },
+    {
+      "code": "STOW-139",
+      "name": "STOW-139",
+      "typeOfWorkCode": "TOW-13",
+      "sortOrder": 139
+    },
+    {
+      "code": "STOW-140",
+      "name": "STOW-140",
+      "typeOfWorkCode": "TOW-13",
+      "sortOrder": 140
+    },
+    {
+      "code": "STOW-141",
+      "name": "STOW-141",
+      "typeOfWorkCode": "TOW-13",
+      "sortOrder": 141
+    },
+    {
+      "code": "STOW-142",
+      "name": "STOW-142",
+      "typeOfWorkCode": "TOW-13",
+      "sortOrder": 142
+    },
+    {
+      "code": "STOW-143",
+      "name": "STOW-143",
+      "typeOfWorkCode": "TOW-13",
+      "sortOrder": 143
+    },
+    {
+      "code": "STOW-144",
+      "name": "STOW-144",
+      "typeOfWorkCode": "TOW-13",
+      "sortOrder": 144
+    },
+    {
+      "code": "STOW-145",
+      "name": "STOW-145",
+      "typeOfWorkCode": "TOW-14",
+      "sortOrder": 145
+    },
+    {
+      "code": "STOW-146",
+      "name": "STOW-146",
+      "typeOfWorkCode": "TOW-15",
+      "sortOrder": 146
+    },
+    {
+      "code": "STOW-147",
+      "name": "STOW-147",
+      "typeOfWorkCode": "TOW-15",
+      "sortOrder": 147
+    },
+    {
+      "code": "STOW-148",
+      "name": "STOW-148",
+      "typeOfWorkCode": "TOW-15",
+      "sortOrder": 148
+    },
+    {
+      "code": "STOW-149",
+      "name": "STOW-149",
+      "typeOfWorkCode": "TOW-15",
+      "sortOrder": 149
+    },
+    {
+      "code": "STOW-150",
+      "name": "STOW-150",
+      "typeOfWorkCode": "TOW-16",
+      "sortOrder": 150
+    },
+    {
+      "code": "STOW-151",
+      "name": "STOW-151",
+      "typeOfWorkCode": "TOW-16",
+      "sortOrder": 151
+    },
+    {
+      "code": "STOW-152",
+      "name": "STOW-152",
+      "typeOfWorkCode": "TOW-16",
+      "sortOrder": 152
+    },
+    {
+      "code": "STOW-153",
+      "name": "STOW-153",
+      "typeOfWorkCode": "TOW-16",
+      "sortOrder": 153
+    },
+    {
+      "code": "STOW-154",
+      "name": "STOW-154",
+      "typeOfWorkCode": "TOW-17",
+      "sortOrder": 154
+    },
+    {
+      "code": "STOW-155",
+      "name": "STOW-155",
+      "typeOfWorkCode": "TOW-17",
+      "sortOrder": 155
+    },
+    {
+      "code": "STOW-156",
+      "name": "STOW-156",
+      "typeOfWorkCode": "TOW-18",
+      "sortOrder": 156
+    },
+    {
+      "code": "STOW-157",
+      "name": "STOW-157",
+      "typeOfWorkCode": "TOW-18",
+      "sortOrder": 157
+    },
+    {
+      "code": "STOW-158",
+      "name": "STOW-158",
+      "typeOfWorkCode": "TOW-18",
+      "sortOrder": 158
+    },
+    {
+      "code": "STOW-159",
+      "name": "STOW-159",
+      "typeOfWorkCode": "TOW-18",
+      "sortOrder": 159
+    },
+    {
+      "code": "STOW-160",
+      "name": "STOW-160",
+      "typeOfWorkCode": "TOW-18",
+      "sortOrder": 160
+    },
+    {
+      "code": "STOW-161",
+      "name": "STOW-161",
+      "typeOfWorkCode": "TOW-18",
+      "sortOrder": 161
+    },
+    {
+      "code": "STOW-162",
+      "name": "STOW-162",
+      "typeOfWorkCode": "TOW-19",
+      "sortOrder": 162
+    },
+    {
+      "code": "STOW-163",
+      "name": "STOW-163",
+      "typeOfWorkCode": "TOW-19",
+      "sortOrder": 163
+    },
+    {
+      "code": "STOW-164",
+      "name": "STOW-164",
+      "typeOfWorkCode": "TOW-19",
+      "sortOrder": 164
+    },
+    {
+      "code": "STOW-165",
+      "name": "STOW-165",
+      "typeOfWorkCode": "TOW-19",
+      "sortOrder": 165
+    },
+    {
+      "code": "STOW-166",
+      "name": "STOW-166",
+      "typeOfWorkCode": "TOW-19",
+      "sortOrder": 166
+    },
+    {
+      "code": "STOW-167",
+      "name": "STOW-167",
+      "typeOfWorkCode": "TOW-20",
+      "sortOrder": 167
+    },
+    {
+      "code": "STOW-168",
+      "name": "STOW-168",
+      "typeOfWorkCode": "TOW-21",
+      "sortOrder": 168
+    },
+    {
+      "code": "STOW-169",
+      "name": "STOW-169",
+      "typeOfWorkCode": "TOW-21",
+      "sortOrder": 169
+    },
+    {
+      "code": "STOW-170",
+      "name": "STOW-170",
+      "typeOfWorkCode": "TOW-21",
+      "sortOrder": 170
+    },
+    {
+      "code": "STOW-171",
+      "name": "STOW-171",
+      "typeOfWorkCode": "TOW-21",
+      "sortOrder": 171
+    },
+    {
+      "code": "STOW-172",
+      "name": "STOW-172",
+      "typeOfWorkCode": "TOW-21",
+      "sortOrder": 172
+    },
+    {
+      "code": "STOW-173",
+      "name": "STOW-173",
+      "typeOfWorkCode": "TOW-22",
+      "sortOrder": 173
+    },
+    {
+      "code": "STOW-174",
+      "name": "STOW-174",
+      "typeOfWorkCode": "TOW-22",
+      "sortOrder": 174
+    },
+    {
+      "code": "STOW-175",
+      "name": "STOW-175",
+      "typeOfWorkCode": "TOW-22",
+      "sortOrder": 175
+    },
+    {
+      "code": "STOW-176",
+      "name": "STOW-176",
+      "typeOfWorkCode": "TOW-22",
+      "sortOrder": 176
+    },
+    {
+      "code": "STOW-177",
+      "name": "STOW-177",
+      "typeOfWorkCode": "TOW-22",
+      "sortOrder": 177
+    },
+    {
+      "code": "STOW-178",
+      "name": "STOW-178",
+      "typeOfWorkCode": "TOW-22",
+      "sortOrder": 178
+    }
+  ],
+  "subSubTypeOfWorks": [
+    {
+      "code": "SSTOW-01",
+      "name": "SSTOW-01",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA01002026",
+      "zzzCode": "60100101"
+    },
+    {
+      "code": "SSTOW-02",
+      "name": "SSTOW-02",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101012026",
+      "zzzCode": "60114604"
+    },
+    {
+      "code": "SSTOW-03",
+      "name": "SSTOW-03",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101022026",
+      "zzzCode": "60114403"
+    },
+    {
+      "code": "SSTOW-04",
+      "name": "SSTOW-04",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101032026",
+      "zzzCode": "60114404"
+    },
+    {
+      "code": "SSTOW-05",
+      "name": "SSTOW-05",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101042026",
+      "zzzCode": "60114405"
+    },
+    {
+      "code": "SSTOW-06",
+      "name": "SSTOW-06",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101052026",
+      "zzzCode": "60114706"
+    },
+    {
+      "code": "SSTOW-07",
+      "name": "SSTOW-07",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101062026",
+      "zzzCode": "60114705"
+    },
+    {
+      "code": "SSTOW-08",
+      "name": "SSTOW-08",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101072026",
+      "zzzCode": "60114707"
+    },
+    {
+      "code": "SSTOW-09",
+      "name": "SSTOW-09",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-10",
+      "name": "SSTOW-10",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101092026",
+      "zzzCode": "60114503"
+    },
+    {
+      "code": "SSTOW-11",
+      "name": "SSTOW-11",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101102026",
+      "zzzCode": "60114504"
+    },
+    {
+      "code": "SSTOW-12",
+      "name": "SSTOW-12",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101132026",
+      "zzzCode": "060114503K"
+    },
+    {
+      "code": "SSTOW-13",
+      "name": "SSTOW-13",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101142026",
+      "zzzCode": "060114504K"
+    },
+    {
+      "code": "SSTOW-14",
+      "name": "SSTOW-14",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA010109012026",
+      "zzzCode": "60114505"
+    },
+    {
+      "code": "SSTOW-15",
+      "name": "SSTOW-15",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA010110012026",
+      "zzzCode": "60114506"
+    },
+    {
+      "code": "SSTOW-16",
+      "name": "SSTOW-16",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA010113012026",
+      "zzzCode": "060114505K"
+    },
+    {
+      "code": "SSTOW-17",
+      "name": "SSTOW-17",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA010114012026",
+      "zzzCode": "060114506K"
+    },
+    {
+      "code": "SSTOW-18",
+      "name": "SSTOW-18",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101112026",
+      "zzzCode": "110101101"
+    },
+    {
+      "code": "SSTOW-19",
+      "name": "SSTOW-19",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-20",
+      "name": "SSTOW-20",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101152026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-21",
+      "name": "SSTOW-21",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101162026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-22",
+      "name": "SSTOW-22",
+      "subTypeOfWorkCode": "STOW-01",
+      "unit": "m3",
+      "typeCode": "AAA0101172026",
+      "zzzCode": "110100209"
+    },
+    {
+      "code": "SSTOW-23",
+      "name": "SSTOW-23",
+      "subTypeOfWorkCode": "STOW-02",
+      "unit": "m3",
+      "typeCode": "AAA0101992026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-24",
+      "name": "SSTOW-24",
+      "subTypeOfWorkCode": "STOW-03",
+      "unit": "m3",
+      "typeCode": "AAA01022026",
+      "zzzCode": "350147301"
+    },
+    {
+      "code": "SSTOW-25",
+      "name": "SSTOW-25",
+      "subTypeOfWorkCode": "STOW-03",
+      "unit": "m3",
+      "typeCode": "AAA0102012026",
+      "zzzCode": "420100802"
+    },
+    {
+      "code": "SSTOW-26",
+      "name": "SSTOW-26",
+      "subTypeOfWorkCode": "STOW-03",
+      "unit": "m3",
+      "typeCode": "AAA0102022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-27",
+      "name": "SSTOW-27",
+      "subTypeOfWorkCode": "STOW-04",
+      "unit": "m2",
+      "typeCode": "AAA0104012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-28",
+      "name": "SSTOW-28",
+      "subTypeOfWorkCode": "STOW-04",
+      "unit": "m2",
+      "typeCode": "AAA0104022026",
+      "zzzCode": "130600301"
+    },
+    {
+      "code": "SSTOW-29",
+      "name": "SSTOW-29",
+      "subTypeOfWorkCode": "STOW-04",
+      "unit": "m2",
+      "typeCode": "AAA0104032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-30",
+      "name": "SSTOW-30",
+      "subTypeOfWorkCode": "STOW-05",
+      "unit": "m",
+      "typeCode": "AAA01162026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-31",
+      "name": "SSTOW-31",
+      "subTypeOfWorkCode": "STOW-06",
+      "unit": "m3",
+      "typeCode": "AAA01172026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-32",
+      "name": "SSTOW-32",
+      "subTypeOfWorkCode": "STOW-07",
+      "unit": "pcs",
+      "typeCode": "AAA01192026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-33",
+      "name": "SSTOW-33",
+      "subTypeOfWorkCode": "STOW-08",
+      "unit": "pcs",
+      "typeCode": "AAA01182026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-34",
+      "name": "SSTOW-34",
+      "subTypeOfWorkCode": "STOW-09",
+      "unit": "m2",
+      "typeCode": "AAA01042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-35",
+      "name": "SSTOW-35",
+      "subTypeOfWorkCode": "STOW-10",
+      "unit": "m2",
+      "typeCode": "AAA01052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-36",
+      "name": "SSTOW-36",
+      "subTypeOfWorkCode": "STOW-11",
+      "unit": "m3",
+      "typeCode": "AAA01062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-37",
+      "name": "SSTOW-37",
+      "subTypeOfWorkCode": "STOW-12",
+      "unit": "m2",
+      "typeCode": "AAA0107012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-38",
+      "name": "SSTOW-38",
+      "subTypeOfWorkCode": "STOW-12",
+      "unit": "m2",
+      "typeCode": "AAA0107022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-39",
+      "name": "SSTOW-39",
+      "subTypeOfWorkCode": "STOW-12",
+      "unit": "m2",
+      "typeCode": "AAA0107032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-40",
+      "name": "SSTOW-40",
+      "subTypeOfWorkCode": "STOW-12",
+      "unit": "m2",
+      "typeCode": "AAA0107042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-41",
+      "name": "SSTOW-41",
+      "subTypeOfWorkCode": "STOW-12",
+      "unit": "m2",
+      "typeCode": "AAA0107052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-42",
+      "name": "SSTOW-42",
+      "subTypeOfWorkCode": "STOW-12",
+      "unit": "m2",
+      "typeCode": "AAA0107062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-43",
+      "name": "SSTOW-43",
+      "subTypeOfWorkCode": "STOW-12",
+      "unit": "m2",
+      "typeCode": "AAA0107072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-44",
+      "name": "SSTOW-44",
+      "subTypeOfWorkCode": "STOW-13",
+      "unit": "m2",
+      "typeCode": "AAA0108012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-45",
+      "name": "SSTOW-45",
+      "subTypeOfWorkCode": "STOW-13",
+      "unit": "m2",
+      "typeCode": "AAA0108022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-46",
+      "name": "SSTOW-46",
+      "subTypeOfWorkCode": "STOW-13",
+      "unit": "m2",
+      "typeCode": "AAA0108032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-47",
+      "name": "SSTOW-47",
+      "subTypeOfWorkCode": "STOW-13",
+      "unit": "m2",
+      "typeCode": "AAA0108042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-48",
+      "name": "SSTOW-48",
+      "subTypeOfWorkCode": "STOW-13",
+      "unit": "m2",
+      "typeCode": "AAA0108052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-49",
+      "name": "SSTOW-49",
+      "subTypeOfWorkCode": "STOW-13",
+      "unit": "m2",
+      "typeCode": "AAA0108062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-50",
+      "name": "SSTOW-50",
+      "subTypeOfWorkCode": "STOW-13",
+      "unit": "m2",
+      "typeCode": "AAA0108072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-51",
+      "name": "SSTOW-51",
+      "subTypeOfWorkCode": "STOW-14",
+      "unit": "m2",
+      "typeCode": "AAA0109012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-52",
+      "name": "SSTOW-52",
+      "subTypeOfWorkCode": "STOW-15",
+      "unit": "m2",
+      "typeCode": "AAA0109022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-53",
+      "name": "SSTOW-53",
+      "subTypeOfWorkCode": "STOW-16",
+      "unit": "m3",
+      "typeCode": "AAA01102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-54",
+      "name": "SSTOW-54",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA01112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-55",
+      "name": "SSTOW-55",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-56",
+      "name": "SSTOW-56",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-57",
+      "name": "SSTOW-57",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-58",
+      "name": "SSTOW-58",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-59",
+      "name": "SSTOW-59",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-60",
+      "name": "SSTOW-60",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-61",
+      "name": "SSTOW-61",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-62",
+      "name": "SSTOW-62",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-63",
+      "name": "SSTOW-63",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-64",
+      "name": "SSTOW-64",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-65",
+      "name": "SSTOW-65",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-66",
+      "name": "SSTOW-66",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-67",
+      "name": "SSTOW-67",
+      "subTypeOfWorkCode": "STOW-17",
+      "unit": "m2",
+      "typeCode": "AAA0111132026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-68",
+      "name": "SSTOW-68",
+      "subTypeOfWorkCode": "STOW-18",
+      "unit": "pcs",
+      "typeCode": "AAA01122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-69",
+      "name": "SSTOW-69",
+      "subTypeOfWorkCode": "STOW-19",
+      "unit": "m3",
+      "typeCode": "AAA01132026",
+      "zzzCode": "440206504"
+    },
+    {
+      "code": "SSTOW-70",
+      "name": "SSTOW-70",
+      "subTypeOfWorkCode": "STOW-19",
+      "unit": "m3",
+      "typeCode": "AAA0113012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-71",
+      "name": "SSTOW-71",
+      "subTypeOfWorkCode": "STOW-20",
+      "unit": "pcs",
+      "typeCode": "AAA01202026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-72",
+      "name": "SSTOW-72",
+      "subTypeOfWorkCode": "STOW-21",
+      "unit": "m3",
+      "typeCode": "AAA01212026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-73",
+      "name": "SSTOW-73",
+      "subTypeOfWorkCode": "STOW-22",
+      "unit": "m3",
+      "typeCode": "AAA01222026",
+      "zzzCode": "370400108"
+    },
+    {
+      "code": "SSTOW-74",
+      "name": "SSTOW-74",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201012026",
+      "zzzCode": "60114602"
+    },
+    {
+      "code": "SSTOW-75",
+      "name": "SSTOW-75",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201022026",
+      "zzzCode": "60114502"
+    },
+    {
+      "code": "SSTOW-76",
+      "name": "SSTOW-76",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-77",
+      "name": "SSTOW-77",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201042026",
+      "zzzCode": "60114402"
+    },
+    {
+      "code": "SSTOW-78",
+      "name": "SSTOW-78",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201052026",
+      "zzzCode": "60114701"
+    },
+    {
+      "code": "SSTOW-79",
+      "name": "SSTOW-79",
+      "subTypeOfWorkCode": "STOW-24",
+      "unit": "t",
+      "typeCode": "AAA0201062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-80",
+      "name": "SSTOW-80",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-81",
+      "name": "SSTOW-81",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-82",
+      "name": "SSTOW-82",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-83",
+      "name": "SSTOW-83",
+      "subTypeOfWorkCode": "STOW-25",
+      "unit": "t",
+      "typeCode": "AAA02042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-84",
+      "name": "SSTOW-84",
+      "subTypeOfWorkCode": "STOW-26",
+      "unit": "t",
+      "typeCode": "AAA0201072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-85",
+      "name": "SSTOW-85",
+      "subTypeOfWorkCode": "STOW-27",
+      "unit": "pcs",
+      "typeCode": "AAA0205012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-86",
+      "name": "SSTOW-86",
+      "subTypeOfWorkCode": "STOW-28",
+      "unit": "pcs",
+      "typeCode": "AAA0205022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-87",
+      "name": "SSTOW-87",
+      "subTypeOfWorkCode": "STOW-29",
+      "unit": "pcs",
+      "typeCode": "AAA02062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-88",
+      "name": "SSTOW-88",
+      "subTypeOfWorkCode": "STOW-30",
+      "unit": "pcs",
+      "typeCode": "AAA02112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-89",
+      "name": "SSTOW-89",
+      "subTypeOfWorkCode": "STOW-31",
+      "unit": "pcs",
+      "typeCode": "AAA02072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-90",
+      "name": "SSTOW-90",
+      "subTypeOfWorkCode": "STOW-32",
+      "unit": "t",
+      "typeCode": "AAA0208012026",
+      "zzzCode": "370102701"
+    },
+    {
+      "code": "SSTOW-91",
+      "name": "SSTOW-91",
+      "subTypeOfWorkCode": "STOW-32",
+      "unit": "t",
+      "typeCode": "AAA0208022026",
+      "zzzCode": "370102702"
+    },
+    {
+      "code": "SSTOW-92",
+      "name": "SSTOW-92",
+      "subTypeOfWorkCode": "STOW-32",
+      "unit": "t",
+      "typeCode": "AAA0208032026",
+      "zzzCode": "370102703"
+    },
+    {
+      "code": "SSTOW-93",
+      "name": "SSTOW-93",
+      "subTypeOfWorkCode": "STOW-33",
+      "unit": "t",
+      "typeCode": "AAA0208052026",
+      "zzzCode": "60109201"
+    },
+    {
+      "code": "SSTOW-94",
+      "name": "SSTOW-94",
+      "subTypeOfWorkCode": "STOW-33",
+      "unit": "t",
+      "typeCode": "AAA0208062026",
+      "zzzCode": "60109202"
+    },
+    {
+      "code": "SSTOW-95",
+      "name": "SSTOW-95",
+      "subTypeOfWorkCode": "STOW-33",
+      "unit": "t",
+      "typeCode": "AAA0208072026",
+      "zzzCode": "60109203"
+    },
+    {
+      "code": "SSTOW-96",
+      "name": "SSTOW-96",
+      "subTypeOfWorkCode": "STOW-33",
+      "unit": "t",
+      "typeCode": "AAA0208082026",
+      "zzzCode": "60109204"
+    },
+    {
+      "code": "SSTOW-97",
+      "name": "SSTOW-97",
+      "subTypeOfWorkCode": "STOW-33",
+      "unit": "t",
+      "typeCode": "AAA0208092026",
+      "zzzCode": "60109205"
+    },
+    {
+      "code": "SSTOW-98",
+      "name": "SSTOW-98",
+      "subTypeOfWorkCode": "STOW-33",
+      "unit": "t",
+      "typeCode": "AAA0208102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-99",
+      "name": "SSTOW-99",
+      "subTypeOfWorkCode": "STOW-33",
+      "unit": "t",
+      "typeCode": "AAA0208112026",
+      "zzzCode": "60109206"
+    },
+    {
+      "code": "SSTOW-100",
+      "name": "SSTOW-100",
+      "subTypeOfWorkCode": "STOW-34",
+      "unit": "t",
+      "typeCode": "AAA0208042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-101",
+      "name": "SSTOW-101",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0210012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-102",
+      "name": "SSTOW-102",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-103",
+      "name": "SSTOW-103",
+      "subTypeOfWorkCode": "STOW-23",
+      "unit": "t",
+      "typeCode": "AAA0201092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-104",
+      "name": "SSTOW-104",
+      "subTypeOfWorkCode": "STOW-35",
+      "unit": "t",
+      "typeCode": "AAA02092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-105",
+      "name": "SSTOW-105",
+      "subTypeOfWorkCode": "STOW-36",
+      "unit": "m2",
+      "typeCode": "AAA02102026",
+      "zzzCode": "270600901"
+    },
+    {
+      "code": "SSTOW-106",
+      "name": "SSTOW-106",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301012026",
+      "zzzCode": "90201903"
+    },
+    {
+      "code": "SSTOW-107",
+      "name": "SSTOW-107",
+      "subTypeOfWorkCode": "STOW-38",
+      "unit": "t",
+      "typeCode": "AAA0301022026",
+      "zzzCode": "90303001"
+    },
+    {
+      "code": "SSTOW-108",
+      "name": "SSTOW-108",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301032026",
+      "zzzCode": "90201802"
+    },
+    {
+      "code": "SSTOW-109",
+      "name": "SSTOW-109",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301042026",
+      "zzzCode": "90300211"
+    },
+    {
+      "code": "SSTOW-110",
+      "name": "SSTOW-110",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301052026",
+      "zzzCode": "90300212"
+    },
+    {
+      "code": "SSTOW-111",
+      "name": "SSTOW-111",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301062026",
+      "zzzCode": "90301201"
+    },
+    {
+      "code": "SSTOW-112",
+      "name": "SSTOW-112",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA030106012026",
+      "zzzCode": "90301203"
+    },
+    {
+      "code": "SSTOW-113",
+      "name": "SSTOW-113",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301072026",
+      "zzzCode": "90301401"
+    },
+    {
+      "code": "SSTOW-114",
+      "name": "SSTOW-114",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301082026",
+      "zzzCode": "90301402"
+    },
+    {
+      "code": "SSTOW-115",
+      "name": "SSTOW-115",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301092026",
+      "zzzCode": "90301501"
+    },
+    {
+      "code": "SSTOW-116",
+      "name": "SSTOW-116",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301132026",
+      "zzzCode": "90301502"
+    },
+    {
+      "code": "SSTOW-117",
+      "name": "SSTOW-117",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301122026",
+      "zzzCode": "90301302"
+    },
+    {
+      "code": "SSTOW-118",
+      "name": "SSTOW-118",
+      "subTypeOfWorkCode": "STOW-39",
+      "unit": "t",
+      "typeCode": "AAA0302012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-119",
+      "name": "SSTOW-119",
+      "subTypeOfWorkCode": "STOW-38",
+      "unit": "t",
+      "typeCode": "AAA0301102026",
+      "zzzCode": "90303901"
+    },
+    {
+      "code": "SSTOW-120",
+      "name": "SSTOW-120",
+      "subTypeOfWorkCode": "STOW-37",
+      "unit": "t",
+      "typeCode": "AAA0301112026",
+      "zzzCode": "90100602"
+    },
+    {
+      "code": "SSTOW-121",
+      "name": "SSTOW-121",
+      "subTypeOfWorkCode": "STOW-40",
+      "unit": "t",
+      "typeCode": "AAA03042026",
+      "zzzCode": "220101112"
+    },
+    {
+      "code": "SSTOW-122",
+      "name": "SSTOW-122",
+      "subTypeOfWorkCode": "STOW-40",
+      "unit": "t",
+      "typeCode": "AAA0304012026",
+      "zzzCode": "390100401"
+    },
+    {
+      "code": "SSTOW-123",
+      "name": "SSTOW-123",
+      "subTypeOfWorkCode": "STOW-40",
+      "unit": "m",
+      "typeCode": "AAA030401022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-124",
+      "name": "SSTOW-124",
+      "subTypeOfWorkCode": "STOW-40",
+      "unit": "t",
+      "typeCode": "AAA0304022026",
+      "zzzCode": "60101506"
+    },
+    {
+      "code": "SSTOW-125",
+      "name": "SSTOW-125",
+      "subTypeOfWorkCode": "STOW-38",
+      "unit": "t",
+      "typeCode": "AAA03052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-126",
+      "name": "SSTOW-126",
+      "subTypeOfWorkCode": "STOW-41",
+      "unit": "t",
+      "typeCode": "AAA0306012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-127",
+      "name": "SSTOW-127",
+      "subTypeOfWorkCode": "STOW-41",
+      "unit": "pcs",
+      "typeCode": "AAA0306022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-128",
+      "name": "SSTOW-128",
+      "subTypeOfWorkCode": "STOW-41",
+      "unit": "pcs",
+      "typeCode": "AAA0306032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-129",
+      "name": "SSTOW-129",
+      "subTypeOfWorkCode": "STOW-41",
+      "unit": "t",
+      "typeCode": "AAA0306052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-130",
+      "name": "SSTOW-130",
+      "subTypeOfWorkCode": "STOW-42",
+      "unit": "t",
+      "typeCode": "AAA0307012026",
+      "zzzCode": "90700401"
+    },
+    {
+      "code": "SSTOW-131",
+      "name": "SSTOW-131",
+      "subTypeOfWorkCode": "STOW-42",
+      "unit": "t",
+      "typeCode": "AAA0307022026",
+      "zzzCode": "90700402"
+    },
+    {
+      "code": "SSTOW-132",
+      "name": "SSTOW-132",
+      "subTypeOfWorkCode": "STOW-42",
+      "unit": "t",
+      "typeCode": "AAA0307032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-133",
+      "name": "SSTOW-133",
+      "subTypeOfWorkCode": "STOW-42",
+      "unit": "t",
+      "typeCode": "AAA0307042026",
+      "zzzCode": "90700301"
+    },
+    {
+      "code": "SSTOW-134",
+      "name": "SSTOW-134",
+      "subTypeOfWorkCode": "STOW-43",
+      "unit": "pcs",
+      "typeCode": "AAA03082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-135",
+      "name": "SSTOW-135",
+      "subTypeOfWorkCode": "STOW-44",
+      "unit": "t",
+      "typeCode": "AAA03132026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-136",
+      "name": "SSTOW-136",
+      "subTypeOfWorkCode": "STOW-45",
+      "unit": "m2",
+      "typeCode": "AAA03092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-137",
+      "name": "SSTOW-137",
+      "subTypeOfWorkCode": "STOW-46",
+      "unit": "m2",
+      "typeCode": "AAA03102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-138",
+      "name": "SSTOW-138",
+      "subTypeOfWorkCode": "STOW-47",
+      "unit": "m2",
+      "typeCode": "AAA03112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-139",
+      "name": "SSTOW-139",
+      "subTypeOfWorkCode": "STOW-38",
+      "unit": "t",
+      "typeCode": "AAA03122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-140",
+      "name": "SSTOW-140",
+      "subTypeOfWorkCode": "STOW-38",
+      "unit": "t",
+      "typeCode": "AAA0312012026",
+      "zzzCode": "90302901"
+    },
+    {
+      "code": "SSTOW-141",
+      "name": "SSTOW-141",
+      "subTypeOfWorkCode": "STOW-48",
+      "unit": "t",
+      "typeCode": "AAA03142026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-142",
+      "name": "SSTOW-142",
+      "subTypeOfWorkCode": "STOW-49",
+      "unit": "t",
+      "typeCode": "AAA03022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-143",
+      "name": "SSTOW-143",
+      "subTypeOfWorkCode": "STOW-50",
+      "unit": "t",
+      "typeCode": "AAA03992026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-144",
+      "name": "SSTOW-144",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303012026",
+      "zzzCode": "60101507"
+    },
+    {
+      "code": "SSTOW-145",
+      "name": "SSTOW-145",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303022026",
+      "zzzCode": "60101508"
+    },
+    {
+      "code": "SSTOW-146",
+      "name": "SSTOW-146",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303072026",
+      "zzzCode": "60101508"
+    },
+    {
+      "code": "SSTOW-147",
+      "name": "SSTOW-147",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303032026",
+      "zzzCode": "60101509"
+    },
+    {
+      "code": "SSTOW-148",
+      "name": "SSTOW-148",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303082026",
+      "zzzCode": "60101509"
+    },
+    {
+      "code": "SSTOW-149",
+      "name": "SSTOW-149",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303132026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-150",
+      "name": "SSTOW-150",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303142026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-151",
+      "name": "SSTOW-151",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303152026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-152",
+      "name": "SSTOW-152",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303162026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-153",
+      "name": "SSTOW-153",
+      "subTypeOfWorkCode": "STOW-51",
+      "unit": "t",
+      "typeCode": "AAA0303172026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-154",
+      "name": "SSTOW-154",
+      "subTypeOfWorkCode": "STOW-52",
+      "unit": "t",
+      "typeCode": "AAA0303042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-155",
+      "name": "SSTOW-155",
+      "subTypeOfWorkCode": "STOW-52",
+      "unit": "t",
+      "typeCode": "AAA0303052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-156",
+      "name": "SSTOW-156",
+      "subTypeOfWorkCode": "STOW-52",
+      "unit": "t",
+      "typeCode": "AAA0303092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-157",
+      "name": "SSTOW-157",
+      "subTypeOfWorkCode": "STOW-52",
+      "unit": "t",
+      "typeCode": "AAA0303062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-158",
+      "name": "SSTOW-158",
+      "subTypeOfWorkCode": "STOW-52",
+      "unit": "t",
+      "typeCode": "AAA0303102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-159",
+      "name": "SSTOW-159",
+      "subTypeOfWorkCode": "STOW-53",
+      "unit": "t",
+      "typeCode": "AAA0303112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-160",
+      "name": "SSTOW-160",
+      "subTypeOfWorkCode": "STOW-54",
+      "unit": "t",
+      "typeCode": "AAA0303122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-161",
+      "name": "SSTOW-161",
+      "subTypeOfWorkCode": "STOW-55",
+      "unit": "m3",
+      "typeCode": "AAA04012026",
+      "zzzCode": "10101204"
+    },
+    {
+      "code": "SSTOW-162",
+      "name": "SSTOW-162",
+      "subTypeOfWorkCode": "STOW-56",
+      "unit": "m3",
+      "typeCode": "AAA04022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-163",
+      "name": "SSTOW-163",
+      "subTypeOfWorkCode": "STOW-57",
+      "unit": "m3",
+      "typeCode": "AAA04142026",
+      "zzzCode": "10205701"
+    },
+    {
+      "code": "SSTOW-164",
+      "name": "SSTOW-164",
+      "subTypeOfWorkCode": "STOW-58",
+      "unit": "m3",
+      "typeCode": "AAA04032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-165",
+      "name": "SSTOW-165",
+      "subTypeOfWorkCode": "STOW-59",
+      "unit": "m3",
+      "typeCode": "AAA04042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-166",
+      "name": "SSTOW-166",
+      "subTypeOfWorkCode": "STOW-60",
+      "unit": "m3",
+      "typeCode": "AAA0405012026",
+      "zzzCode": "60107002"
+    },
+    {
+      "code": "SSTOW-167",
+      "name": "SSTOW-167",
+      "subTypeOfWorkCode": "STOW-60",
+      "unit": "m3",
+      "typeCode": "AAA0405022026",
+      "zzzCode": "10103702"
+    },
+    {
+      "code": "SSTOW-168",
+      "name": "SSTOW-168",
+      "subTypeOfWorkCode": "STOW-60",
+      "unit": "m3",
+      "typeCode": "AAA0405032026",
+      "zzzCode": "10104603"
+    },
+    {
+      "code": "SSTOW-169",
+      "name": "SSTOW-169",
+      "subTypeOfWorkCode": "STOW-60",
+      "unit": "m3",
+      "typeCode": "AAA0405042026",
+      "zzzCode": "10104401"
+    },
+    {
+      "code": "SSTOW-170",
+      "name": "SSTOW-170",
+      "subTypeOfWorkCode": "STOW-61",
+      "unit": "m3",
+      "typeCode": "AAA04062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-171",
+      "name": "SSTOW-171",
+      "subTypeOfWorkCode": "STOW-62",
+      "unit": "m3",
+      "typeCode": "AAA04132026",
+      "zzzCode": "10206102"
+    },
+    {
+      "code": "SSTOW-172",
+      "name": "SSTOW-172",
+      "subTypeOfWorkCode": "STOW-63",
+      "unit": "m3",
+      "typeCode": "AAA04072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-173",
+      "name": "SSTOW-173",
+      "subTypeOfWorkCode": "STOW-64",
+      "unit": "m3",
+      "typeCode": "AAA0408012026",
+      "zzzCode": "10200105"
+    },
+    {
+      "code": "SSTOW-174",
+      "name": "SSTOW-174",
+      "subTypeOfWorkCode": "STOW-64",
+      "unit": "m3",
+      "typeCode": "AAA0408022026",
+      "zzzCode": "10200502"
+    },
+    {
+      "code": "SSTOW-175",
+      "name": "SSTOW-175",
+      "subTypeOfWorkCode": "STOW-65",
+      "unit": "m3",
+      "typeCode": "AAA04092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-176",
+      "name": "SSTOW-176",
+      "subTypeOfWorkCode": "STOW-66",
+      "unit": "m2",
+      "typeCode": "AAA0412012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-177",
+      "name": "SSTOW-177",
+      "subTypeOfWorkCode": "STOW-67",
+      "unit": "m2",
+      "typeCode": "AAA0412022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-178",
+      "name": "SSTOW-178",
+      "subTypeOfWorkCode": "STOW-68",
+      "unit": "m2",
+      "typeCode": "AAA0412032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-179",
+      "name": "SSTOW-179",
+      "subTypeOfWorkCode": "STOW-69",
+      "unit": "m2",
+      "typeCode": "AAA0412042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-180",
+      "name": "SSTOW-180",
+      "subTypeOfWorkCode": "STOW-70",
+      "unit": "m3",
+      "typeCode": "AAA04162026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-181",
+      "name": "SSTOW-181",
+      "subTypeOfWorkCode": "STOW-71",
+      "unit": "m2",
+      "typeCode": "AAA04152026",
+      "zzzCode": "10202703"
+    },
+    {
+      "code": "SSTOW-182",
+      "name": "SSTOW-182",
+      "subTypeOfWorkCode": "STOW-71",
+      "unit": "m2",
+      "typeCode": "AAA0415012026",
+      "zzzCode": "10110902"
+    },
+    {
+      "code": "SSTOW-183",
+      "name": "SSTOW-183",
+      "subTypeOfWorkCode": "STOW-72",
+      "unit": "m3",
+      "typeCode": "AAA04172026",
+      "zzzCode": "380201311"
+    },
+    {
+      "code": "SSTOW-184",
+      "name": "SSTOW-184",
+      "subTypeOfWorkCode": "STOW-73",
+      "unit": "m3",
+      "typeCode": "AAA04182026",
+      "zzzCode": "230100102"
+    },
+    {
+      "code": "SSTOW-185",
+      "name": "SSTOW-185",
+      "subTypeOfWorkCode": "STOW-74",
+      "unit": "m3",
+      "typeCode": "AAA04192026",
+      "zzzCode": "10209401"
+    },
+    {
+      "code": "SSTOW-186",
+      "name": "SSTOW-186",
+      "subTypeOfWorkCode": "STOW-75",
+      "unit": "m3",
+      "typeCode": "AAA05012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-187",
+      "name": "SSTOW-187",
+      "subTypeOfWorkCode": "STOW-76",
+      "unit": "m",
+      "typeCode": "AAA05022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-188",
+      "name": "SSTOW-188",
+      "subTypeOfWorkCode": "STOW-77",
+      "unit": "pcs",
+      "typeCode": "AAA05032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-189",
+      "name": "SSTOW-189",
+      "subTypeOfWorkCode": "STOW-78",
+      "unit": "m3",
+      "typeCode": "AAA05042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-190",
+      "name": "SSTOW-190",
+      "subTypeOfWorkCode": "STOW-79",
+      "unit": "m3",
+      "typeCode": "AAA05052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-191",
+      "name": "SSTOW-191",
+      "subTypeOfWorkCode": "STOW-80",
+      "unit": "t",
+      "typeCode": "AAA05072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-192",
+      "name": "SSTOW-192",
+      "subTypeOfWorkCode": "STOW-81",
+      "unit": "m3",
+      "typeCode": "AAA06012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-193",
+      "name": "SSTOW-193",
+      "subTypeOfWorkCode": "STOW-82",
+      "unit": "m2",
+      "typeCode": "AAA06022026",
+      "zzzCode": "270401604"
+    },
+    {
+      "code": "SSTOW-194",
+      "name": "SSTOW-194",
+      "subTypeOfWorkCode": "STOW-83",
+      "unit": "m2",
+      "typeCode": "AAA06032026",
+      "zzzCode": "27 0602006"
+    },
+    {
+      "code": "SSTOW-195",
+      "name": "SSTOW-195",
+      "subTypeOfWorkCode": "STOW-84",
+      "unit": "pcs",
+      "typeCode": "AAA06042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-196",
+      "name": "SSTOW-196",
+      "subTypeOfWorkCode": "STOW-85",
+      "unit": "pcs",
+      "typeCode": "AAA06052026",
+      "zzzCode": "270900801"
+    },
+    {
+      "code": "SSTOW-197",
+      "name": "SSTOW-197",
+      "subTypeOfWorkCode": "STOW-86",
+      "unit": "m2",
+      "typeCode": "AAA06112026",
+      "zzzCode": "270600217"
+    },
+    {
+      "code": "SSTOW-198",
+      "name": "SSTOW-198",
+      "subTypeOfWorkCode": "STOW-86",
+      "unit": "m3",
+      "typeCode": "AAA06122026",
+      "zzzCode": "10101504"
+    },
+    {
+      "code": "SSTOW-199",
+      "name": "SSTOW-199",
+      "subTypeOfWorkCode": "STOW-87",
+      "unit": "m",
+      "typeCode": "AAA06132026",
+      "zzzCode": "270900205"
+    },
+    {
+      "code": "SSTOW-200",
+      "name": "SSTOW-200",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0606012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-201",
+      "name": "SSTOW-201",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0606022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-202",
+      "name": "SSTOW-202",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0606032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-203",
+      "name": "SSTOW-203",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0606042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-204",
+      "name": "SSTOW-204",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0606052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-205",
+      "name": "SSTOW-205",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0606062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-206",
+      "name": "SSTOW-206",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0606072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-207",
+      "name": "SSTOW-207",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0606082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-208",
+      "name": "SSTOW-208",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-209",
+      "name": "SSTOW-209",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-210",
+      "name": "SSTOW-210",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-211",
+      "name": "SSTOW-211",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-212",
+      "name": "SSTOW-212",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-213",
+      "name": "SSTOW-213",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-214",
+      "name": "SSTOW-214",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-215",
+      "name": "SSTOW-215",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-216",
+      "name": "SSTOW-216",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-217",
+      "name": "SSTOW-217",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-218",
+      "name": "SSTOW-218",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-219",
+      "name": "SSTOW-219",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-220",
+      "name": "SSTOW-220",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607132026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-221",
+      "name": "SSTOW-221",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0607142026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-222",
+      "name": "SSTOW-222",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-223",
+      "name": "SSTOW-223",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-224",
+      "name": "SSTOW-224",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-225",
+      "name": "SSTOW-225",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-226",
+      "name": "SSTOW-226",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-227",
+      "name": "SSTOW-227",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-228",
+      "name": "SSTOW-228",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-229",
+      "name": "SSTOW-229",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-230",
+      "name": "SSTOW-230",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-231",
+      "name": "SSTOW-231",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-232",
+      "name": "SSTOW-232",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-233",
+      "name": "SSTOW-233",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-234",
+      "name": "SSTOW-234",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608132026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-235",
+      "name": "SSTOW-235",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608142026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-236",
+      "name": "SSTOW-236",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608152026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-237",
+      "name": "SSTOW-237",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608162026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-238",
+      "name": "SSTOW-238",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608172026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-239",
+      "name": "SSTOW-239",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608182026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-240",
+      "name": "SSTOW-240",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608192026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-241",
+      "name": "SSTOW-241",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608202026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-242",
+      "name": "SSTOW-242",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608212026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-243",
+      "name": "SSTOW-243",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608222026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-244",
+      "name": "SSTOW-244",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m",
+      "typeCode": "AAA0608232026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-245",
+      "name": "SSTOW-245",
+      "subTypeOfWorkCode": "STOW-88",
+      "unit": "m3",
+      "typeCode": "AAA06192026",
+      "zzzCode": "270400101"
+    },
+    {
+      "code": "SSTOW-246",
+      "name": "SSTOW-246",
+      "subTypeOfWorkCode": "STOW-89",
+      "unit": "pcs",
+      "typeCode": "AAA06172026",
+      "zzzCode": "220300501"
+    },
+    {
+      "code": "SSTOW-247",
+      "name": "SSTOW-247",
+      "subTypeOfWorkCode": "STOW-89",
+      "unit": "t",
+      "typeCode": "AAA06182026",
+      "zzzCode": "220300105"
+    },
+    {
+      "code": "SSTOW-248",
+      "name": "SSTOW-248",
+      "subTypeOfWorkCode": "STOW-89",
+      "unit": "pcs",
+      "typeCode": "AAA0618012026",
+      "zzzCode": "220300202"
+    },
+    {
+      "code": "SSTOW-249",
+      "name": "SSTOW-249",
+      "subTypeOfWorkCode": "STOW-89",
+      "unit": "pcs",
+      "typeCode": "AAA0618022026",
+      "zzzCode": "220300201"
+    },
+    {
+      "code": "SSTOW-250",
+      "name": "SSTOW-250",
+      "subTypeOfWorkCode": "STOW-90",
+      "unit": "t",
+      "typeCode": "AAA06202026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-251",
+      "name": "SSTOW-251",
+      "subTypeOfWorkCode": "STOW-91",
+      "unit": "m3",
+      "typeCode": "AAA06102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-252",
+      "name": "SSTOW-252",
+      "subTypeOfWorkCode": "STOW-92",
+      "unit": "m2",
+      "typeCode": "AAA07012026",
+      "zzzCode": "260105703"
+    },
+    {
+      "code": "SSTOW-253",
+      "name": "SSTOW-253",
+      "subTypeOfWorkCode": "STOW-93",
+      "unit": "m2",
+      "typeCode": "AAA07022026",
+      "zzzCode": "80100307"
+    },
+    {
+      "code": "SSTOW-254",
+      "name": "SSTOW-254",
+      "subTypeOfWorkCode": "STOW-94",
+      "unit": "m2",
+      "typeCode": "AAA0702012026",
+      "zzzCode": "130300102"
+    },
+    {
+      "code": "SSTOW-255",
+      "name": "SSTOW-255",
+      "subTypeOfWorkCode": "STOW-95",
+      "unit": "m2",
+      "typeCode": "AAA07132026",
+      "zzzCode": "130300601"
+    },
+    {
+      "code": "SSTOW-256",
+      "name": "SSTOW-256",
+      "subTypeOfWorkCode": "STOW-96",
+      "unit": "m2",
+      "typeCode": "AAA07032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-257",
+      "name": "SSTOW-257",
+      "subTypeOfWorkCode": "STOW-97",
+      "unit": "m2",
+      "typeCode": "AAA07042026",
+      "zzzCode": "120102101"
+    },
+    {
+      "code": "SSTOW-258",
+      "name": "SSTOW-258",
+      "subTypeOfWorkCode": "STOW-97",
+      "unit": "m2",
+      "typeCode": "AAA0704012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-259",
+      "name": "SSTOW-259",
+      "subTypeOfWorkCode": "STOW-97",
+      "unit": "m2",
+      "typeCode": "AAA0704022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-260",
+      "name": "SSTOW-260",
+      "subTypeOfWorkCode": "STOW-97",
+      "unit": "m2",
+      "typeCode": "AAA0704032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-261",
+      "name": "SSTOW-261",
+      "subTypeOfWorkCode": "STOW-97",
+      "unit": "m2",
+      "typeCode": "AAA0704042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-262",
+      "name": "SSTOW-262",
+      "subTypeOfWorkCode": "STOW-98",
+      "unit": "m",
+      "typeCode": "AAA07052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-263",
+      "name": "SSTOW-263",
+      "subTypeOfWorkCode": "STOW-99",
+      "unit": "m2",
+      "typeCode": "AAA07062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-264",
+      "name": "SSTOW-264",
+      "subTypeOfWorkCode": "STOW-100",
+      "unit": "m2",
+      "typeCode": "AAA07072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-265",
+      "name": "SSTOW-265",
+      "subTypeOfWorkCode": "STOW-101",
+      "unit": "m2",
+      "typeCode": "AAA07082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-266",
+      "name": "SSTOW-266",
+      "subTypeOfWorkCode": "STOW-102",
+      "unit": "m2",
+      "typeCode": "AAA0701012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-267",
+      "name": "SSTOW-267",
+      "subTypeOfWorkCode": "STOW-103",
+      "unit": "m2",
+      "typeCode": "AAA07092026",
+      "zzzCode": "130300601"
+    },
+    {
+      "code": "SSTOW-268",
+      "name": "SSTOW-268",
+      "subTypeOfWorkCode": "STOW-104",
+      "unit": "m",
+      "typeCode": "AAA07102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-269",
+      "name": "SSTOW-269",
+      "subTypeOfWorkCode": "STOW-105",
+      "unit": "m2",
+      "typeCode": "AAA07112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-270",
+      "name": "SSTOW-270",
+      "subTypeOfWorkCode": "STOW-106",
+      "unit": "m3",
+      "typeCode": "AAA07122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-271",
+      "name": "SSTOW-271",
+      "subTypeOfWorkCode": "STOW-107",
+      "unit": "m2",
+      "typeCode": "AAA08012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-272",
+      "name": "SSTOW-272",
+      "subTypeOfWorkCode": "STOW-108",
+      "unit": "m2",
+      "typeCode": "AAA08182026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-273",
+      "name": "SSTOW-273",
+      "subTypeOfWorkCode": "STOW-109",
+      "unit": "m",
+      "typeCode": "AAA08192026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-274",
+      "name": "SSTOW-274",
+      "subTypeOfWorkCode": "STOW-110",
+      "unit": "m2",
+      "typeCode": "AAA08022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-275",
+      "name": "SSTOW-275",
+      "subTypeOfWorkCode": "STOW-111",
+      "unit": "m2",
+      "typeCode": "AAA08032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-276",
+      "name": "SSTOW-276",
+      "subTypeOfWorkCode": "STOW-112",
+      "unit": "m2",
+      "typeCode": "AAA08042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-277",
+      "name": "SSTOW-277",
+      "subTypeOfWorkCode": "STOW-113",
+      "unit": "m2",
+      "typeCode": "AAA08052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-278",
+      "name": "SSTOW-278",
+      "subTypeOfWorkCode": "STOW-114",
+      "unit": "m2",
+      "typeCode": "AAA08062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-279",
+      "name": "SSTOW-279",
+      "subTypeOfWorkCode": "STOW-114",
+      "unit": "m2",
+      "typeCode": "AAA08152026",
+      "zzzCode": "150201903"
+    },
+    {
+      "code": "SSTOW-280",
+      "name": "SSTOW-280",
+      "subTypeOfWorkCode": "STOW-114",
+      "unit": "m2",
+      "typeCode": "AAA08162026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-281",
+      "name": "SSTOW-281",
+      "subTypeOfWorkCode": "STOW-115",
+      "unit": "m",
+      "typeCode": "AAA08172026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-282",
+      "name": "SSTOW-282",
+      "subTypeOfWorkCode": "STOW-116",
+      "unit": "m2",
+      "typeCode": "AAA0807012026",
+      "zzzCode": "150400701"
+    },
+    {
+      "code": "SSTOW-283",
+      "name": "SSTOW-283",
+      "subTypeOfWorkCode": "STOW-116",
+      "unit": "m2",
+      "typeCode": "AAA0807022026",
+      "zzzCode": "150400701"
+    },
+    {
+      "code": "SSTOW-284",
+      "name": "SSTOW-284",
+      "subTypeOfWorkCode": "STOW-116",
+      "unit": "m2",
+      "typeCode": "AAA0807032026",
+      "zzzCode": "150400701"
+    },
+    {
+      "code": "SSTOW-285",
+      "name": "SSTOW-285",
+      "subTypeOfWorkCode": "STOW-116",
+      "unit": "m2",
+      "typeCode": "AAA0807042026",
+      "zzzCode": "150400701"
+    },
+    {
+      "code": "SSTOW-286",
+      "name": "SSTOW-286",
+      "subTypeOfWorkCode": "STOW-117",
+      "unit": "m2",
+      "typeCode": "AAA08082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-287",
+      "name": "SSTOW-287",
+      "subTypeOfWorkCode": "STOW-118",
+      "unit": "m3",
+      "typeCode": "AAA08092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-288",
+      "name": "SSTOW-288",
+      "subTypeOfWorkCode": "STOW-119",
+      "unit": "m3",
+      "typeCode": "AAA0809012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-289",
+      "name": "SSTOW-289",
+      "subTypeOfWorkCode": "STOW-120",
+      "unit": "pcs",
+      "typeCode": "AAA08102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-290",
+      "name": "SSTOW-290",
+      "subTypeOfWorkCode": "STOW-121",
+      "unit": "pcs",
+      "typeCode": "AAA08112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-291",
+      "name": "SSTOW-291",
+      "subTypeOfWorkCode": "STOW-122",
+      "unit": "m2",
+      "typeCode": "AAA12012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-292",
+      "name": "SSTOW-292",
+      "subTypeOfWorkCode": "STOW-122",
+      "unit": "m",
+      "typeCode": "AAA1201012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-293",
+      "name": "SSTOW-293",
+      "subTypeOfWorkCode": "STOW-122",
+      "unit": "m2",
+      "typeCode": "AAA1201022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-294",
+      "name": "SSTOW-294",
+      "subTypeOfWorkCode": "STOW-122",
+      "unit": "m2",
+      "typeCode": "AAA1201032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-295",
+      "name": "SSTOW-295",
+      "subTypeOfWorkCode": "STOW-123",
+      "unit": "m2",
+      "typeCode": "AAA12022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-296",
+      "name": "SSTOW-296",
+      "subTypeOfWorkCode": "STOW-124",
+      "unit": "m2",
+      "typeCode": "AAA12032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-297",
+      "name": "SSTOW-297",
+      "subTypeOfWorkCode": "STOW-125",
+      "unit": "-",
+      "typeCode": "AAA08142026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-298",
+      "name": "SSTOW-298",
+      "subTypeOfWorkCode": "STOW-126",
+      "unit": "m",
+      "typeCode": "AAA08202026",
+      "zzzCode": "270201001"
+    },
+    {
+      "code": "SSTOW-299",
+      "name": "SSTOW-299",
+      "subTypeOfWorkCode": "STOW-127",
+      "unit": "m2",
+      "typeCode": "AAA08212026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-300",
+      "name": "SSTOW-300",
+      "subTypeOfWorkCode": "STOW-128",
+      "unit": "m",
+      "typeCode": "AAA08222026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-301",
+      "name": "SSTOW-301",
+      "subTypeOfWorkCode": "STOW-129",
+      "unit": "m2",
+      "typeCode": "AAA08232026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-302",
+      "name": "SSTOW-302",
+      "subTypeOfWorkCode": "STOW-130",
+      "unit": "pcs",
+      "typeCode": "AAA09012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-303",
+      "name": "SSTOW-303",
+      "subTypeOfWorkCode": "STOW-130",
+      "unit": "pcs",
+      "typeCode": "AAA09022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-304",
+      "name": "SSTOW-304",
+      "subTypeOfWorkCode": "STOW-130",
+      "unit": "m",
+      "typeCode": "AAA09032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-305",
+      "name": "SSTOW-305",
+      "subTypeOfWorkCode": "STOW-130",
+      "unit": "pcs",
+      "typeCode": "AAA09042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-306",
+      "name": "SSTOW-306",
+      "subTypeOfWorkCode": "STOW-130",
+      "unit": "m",
+      "typeCode": "AAA09052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-307",
+      "name": "SSTOW-307",
+      "subTypeOfWorkCode": "STOW-130",
+      "unit": "set",
+      "typeCode": "AAA09442026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-308",
+      "name": "SSTOW-308",
+      "subTypeOfWorkCode": "STOW-130",
+      "unit": "set",
+      "typeCode": "AAA09452026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-309",
+      "name": "SSTOW-309",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "pcs",
+      "typeCode": "AAA09062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-310",
+      "name": "SSTOW-310",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m",
+      "typeCode": "AAA09072026",
+      "zzzCode": "1604002"
+    },
+    {
+      "code": "SSTOW-311",
+      "name": "SSTOW-311",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "pcs",
+      "typeCode": "AAA0907012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-312",
+      "name": "SSTOW-312",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m2",
+      "typeCode": "AAA0907022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-313",
+      "name": "SSTOW-313",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m",
+      "typeCode": "AAA0907032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-314",
+      "name": "SSTOW-314",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m",
+      "typeCode": "AAA0907042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-315",
+      "name": "SSTOW-315",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m",
+      "typeCode": "AAA0907052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-316",
+      "name": "SSTOW-316",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m",
+      "typeCode": "AAA0907062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-317",
+      "name": "SSTOW-317",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m",
+      "typeCode": "AAA0907072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-318",
+      "name": "SSTOW-318",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m",
+      "typeCode": "AAA0907082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-319",
+      "name": "SSTOW-319",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "pcs",
+      "typeCode": "AAA09082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-320",
+      "name": "SSTOW-320",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "pcs",
+      "typeCode": "AAA09092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-321",
+      "name": "SSTOW-321",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m",
+      "typeCode": "AAA09102026",
+      "zzzCode": "1602005"
+    },
+    {
+      "code": "SSTOW-322",
+      "name": "SSTOW-322",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "t",
+      "typeCode": "AAA0910012026",
+      "zzzCode": "1602005"
+    },
+    {
+      "code": "SSTOW-323",
+      "name": "SSTOW-323",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "pcs",
+      "typeCode": "AAA09112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-324",
+      "name": "SSTOW-324",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "pcs",
+      "typeCode": "AAA09122026",
+      "zzzCode": "160800102"
+    },
+    {
+      "code": "SSTOW-325",
+      "name": "SSTOW-325",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "m",
+      "typeCode": "AAA09132026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-326",
+      "name": "SSTOW-326",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "pcs",
+      "typeCode": "AAA09142026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-327",
+      "name": "SSTOW-327",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "set",
+      "typeCode": "AAA09352026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-328",
+      "name": "SSTOW-328",
+      "subTypeOfWorkCode": "STOW-131",
+      "unit": "set",
+      "typeCode": "AAA09362026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-329",
+      "name": "SSTOW-329",
+      "subTypeOfWorkCode": "STOW-132",
+      "unit": "pcs",
+      "typeCode": "AAA09462026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-330",
+      "name": "SSTOW-330",
+      "subTypeOfWorkCode": "STOW-132",
+      "unit": "pcs",
+      "typeCode": "AAA09472026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-331",
+      "name": "SSTOW-331",
+      "subTypeOfWorkCode": "STOW-132",
+      "unit": "m",
+      "typeCode": "AAA09482026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-332",
+      "name": "SSTOW-332",
+      "subTypeOfWorkCode": "STOW-132",
+      "unit": "m",
+      "typeCode": "AAA09492026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-333",
+      "name": "SSTOW-333",
+      "subTypeOfWorkCode": "STOW-132",
+      "unit": "set",
+      "typeCode": "AAA09502026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-334",
+      "name": "SSTOW-334",
+      "subTypeOfWorkCode": "STOW-132",
+      "unit": "set",
+      "typeCode": "AAA09512026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-335",
+      "name": "SSTOW-335",
+      "subTypeOfWorkCode": "STOW-133",
+      "unit": "m",
+      "typeCode": "AAA09152026",
+      "zzzCode": "1604002"
+    },
+    {
+      "code": "SSTOW-336",
+      "name": "SSTOW-336",
+      "subTypeOfWorkCode": "STOW-133",
+      "unit": "m",
+      "typeCode": "AAA09162026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-337",
+      "name": "SSTOW-337",
+      "subTypeOfWorkCode": "STOW-133",
+      "unit": "pcs",
+      "typeCode": "AAA09172026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-338",
+      "name": "SSTOW-338",
+      "subTypeOfWorkCode": "STOW-133",
+      "unit": "m",
+      "typeCode": "AAA09182026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-339",
+      "name": "SSTOW-339",
+      "subTypeOfWorkCode": "STOW-133",
+      "unit": "pcs",
+      "typeCode": "AAA09192026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-340",
+      "name": "SSTOW-340",
+      "subTypeOfWorkCode": "STOW-133",
+      "unit": "pcs",
+      "typeCode": "AAA09202026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-341",
+      "name": "SSTOW-341",
+      "subTypeOfWorkCode": "STOW-133",
+      "unit": "pcs",
+      "typeCode": "AAA09212026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-342",
+      "name": "SSTOW-342",
+      "subTypeOfWorkCode": "STOW-133",
+      "unit": "set",
+      "typeCode": "AAA09372026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-343",
+      "name": "SSTOW-343",
+      "subTypeOfWorkCode": "STOW-133",
+      "unit": "set",
+      "typeCode": "AAA09382026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-344",
+      "name": "SSTOW-344",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "m2",
+      "typeCode": "AAA09222026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-345",
+      "name": "SSTOW-345",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "pcs",
+      "typeCode": "AAA09232026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-346",
+      "name": "SSTOW-346",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "pcs",
+      "typeCode": "AAA09242026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-347",
+      "name": "SSTOW-347",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "pcs",
+      "typeCode": "AAA09252026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-348",
+      "name": "SSTOW-348",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "pcs",
+      "typeCode": "AAA09262026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-349",
+      "name": "SSTOW-349",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "set",
+      "typeCode": "AAA09272026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-350",
+      "name": "SSTOW-350",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "m2",
+      "typeCode": "AAA09282026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-351",
+      "name": "SSTOW-351",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "m2",
+      "typeCode": "AAA09292026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-352",
+      "name": "SSTOW-352",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "pcs",
+      "typeCode": "AAA09302026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-353",
+      "name": "SSTOW-353",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "m",
+      "typeCode": "AAA09312026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-354",
+      "name": "SSTOW-354",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "pcs",
+      "typeCode": "AAA09322026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-355",
+      "name": "SSTOW-355",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "set",
+      "typeCode": "AAA09392026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-356",
+      "name": "SSTOW-356",
+      "subTypeOfWorkCode": "STOW-134",
+      "unit": "set",
+      "typeCode": "AAA09402026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-357",
+      "name": "SSTOW-357",
+      "subTypeOfWorkCode": "STOW-135",
+      "unit": "m",
+      "typeCode": "AAA09412026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-358",
+      "name": "SSTOW-358",
+      "subTypeOfWorkCode": "STOW-135",
+      "unit": "set",
+      "typeCode": "AAA09332026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-359",
+      "name": "SSTOW-359",
+      "subTypeOfWorkCode": "STOW-135",
+      "unit": "pcs",
+      "typeCode": "AAA09342026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-360",
+      "name": "SSTOW-360",
+      "subTypeOfWorkCode": "STOW-135",
+      "unit": "set",
+      "typeCode": "AAA09422026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-361",
+      "name": "SSTOW-361",
+      "subTypeOfWorkCode": "STOW-135",
+      "unit": "set",
+      "typeCode": "AAA09432026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-362",
+      "name": "SSTOW-362",
+      "subTypeOfWorkCode": "STOW-136",
+      "unit": "-",
+      "typeCode": "AAA09982026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-363",
+      "name": "SSTOW-363",
+      "subTypeOfWorkCode": "STOW-136",
+      "unit": "m2",
+      "typeCode": "AAA0998012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-364",
+      "name": "SSTOW-364",
+      "subTypeOfWorkCode": "STOW-136",
+      "unit": "m2",
+      "typeCode": "AAA0998022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-365",
+      "name": "SSTOW-365",
+      "subTypeOfWorkCode": "STOW-136",
+      "unit": "pcs",
+      "typeCode": "AAA0998032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-366",
+      "name": "SSTOW-366",
+      "subTypeOfWorkCode": "STOW-136",
+      "unit": "pcs",
+      "typeCode": "AAA0998042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-367",
+      "name": "SSTOW-367",
+      "subTypeOfWorkCode": "STOW-137",
+      "unit": "-",
+      "typeCode": "AAA09992026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-368",
+      "name": "SSTOW-368",
+      "subTypeOfWorkCode": "STOW-138",
+      "unit": "m",
+      "typeCode": "AAA10012026",
+      "zzzCode": "80474401"
+    },
+    {
+      "code": "SSTOW-369",
+      "name": "SSTOW-369",
+      "subTypeOfWorkCode": "STOW-138",
+      "unit": "pcs",
+      "typeCode": "AAA10022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-370",
+      "name": "SSTOW-370",
+      "subTypeOfWorkCode": "STOW-138",
+      "unit": "pcs",
+      "typeCode": "AAA10032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-371",
+      "name": "SSTOW-371",
+      "subTypeOfWorkCode": "STOW-138",
+      "unit": "pcs",
+      "typeCode": "AAA10042026",
+      "zzzCode": "80357204"
+    },
+    {
+      "code": "SSTOW-372",
+      "name": "SSTOW-372",
+      "subTypeOfWorkCode": "STOW-138",
+      "unit": "m",
+      "typeCode": "AAA10052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-373",
+      "name": "SSTOW-373",
+      "subTypeOfWorkCode": "STOW-138",
+      "unit": "m",
+      "typeCode": "AAA10062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-374",
+      "name": "SSTOW-374",
+      "subTypeOfWorkCode": "STOW-138",
+      "unit": "set",
+      "typeCode": "AAA10252026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-375",
+      "name": "SSTOW-375",
+      "subTypeOfWorkCode": "STOW-138",
+      "unit": "set",
+      "typeCode": "AAA10262026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-376",
+      "name": "SSTOW-376",
+      "subTypeOfWorkCode": "STOW-138",
+      "unit": "m",
+      "typeCode": "AAA10402026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-377",
+      "name": "SSTOW-377",
+      "subTypeOfWorkCode": "STOW-139",
+      "unit": "pcs",
+      "typeCode": "AAA10072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-378",
+      "name": "SSTOW-378",
+      "subTypeOfWorkCode": "STOW-139",
+      "unit": "pcs",
+      "typeCode": "AAA10082026",
+      "zzzCode": "80357204"
+    },
+    {
+      "code": "SSTOW-379",
+      "name": "SSTOW-379",
+      "subTypeOfWorkCode": "STOW-139",
+      "unit": "pcs",
+      "typeCode": "AAA10092026",
+      "zzzCode": "80359110"
+    },
+    {
+      "code": "SSTOW-380",
+      "name": "SSTOW-380",
+      "subTypeOfWorkCode": "STOW-139",
+      "unit": "m",
+      "typeCode": "AAA10102026",
+      "zzzCode": "80474401"
+    },
+    {
+      "code": "SSTOW-381",
+      "name": "SSTOW-381",
+      "subTypeOfWorkCode": "STOW-139",
+      "unit": "pcs",
+      "typeCode": "AAA10112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-382",
+      "name": "SSTOW-382",
+      "subTypeOfWorkCode": "STOW-139",
+      "unit": "set",
+      "typeCode": "AAA10272026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-383",
+      "name": "SSTOW-383",
+      "subTypeOfWorkCode": "STOW-139",
+      "unit": "set",
+      "typeCode": "AAA10282026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-384",
+      "name": "SSTOW-384",
+      "subTypeOfWorkCode": "STOW-140",
+      "unit": "m",
+      "typeCode": "AAA10122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-385",
+      "name": "SSTOW-385",
+      "subTypeOfWorkCode": "STOW-140",
+      "unit": "pcs",
+      "typeCode": "AAA10132026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-386",
+      "name": "SSTOW-386",
+      "subTypeOfWorkCode": "STOW-140",
+      "unit": "pcs",
+      "typeCode": "AAA10142026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-387",
+      "name": "SSTOW-387",
+      "subTypeOfWorkCode": "STOW-140",
+      "unit": "pcs",
+      "typeCode": "AAA10292026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-388",
+      "name": "SSTOW-388",
+      "subTypeOfWorkCode": "STOW-140",
+      "unit": "set",
+      "typeCode": "AAA10302026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-389",
+      "name": "SSTOW-389",
+      "subTypeOfWorkCode": "STOW-140",
+      "unit": "set",
+      "typeCode": "AAA10312026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-390",
+      "name": "SSTOW-390",
+      "subTypeOfWorkCode": "STOW-141",
+      "unit": "m",
+      "typeCode": "AAA10152026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-391",
+      "name": "SSTOW-391",
+      "subTypeOfWorkCode": "STOW-141",
+      "unit": "pcs",
+      "typeCode": "AAA10162026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-392",
+      "name": "SSTOW-392",
+      "subTypeOfWorkCode": "STOW-141",
+      "unit": "pcs",
+      "typeCode": "AAA10172026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-393",
+      "name": "SSTOW-393",
+      "subTypeOfWorkCode": "STOW-141",
+      "unit": "set",
+      "typeCode": "AAA10322026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-394",
+      "name": "SSTOW-394",
+      "subTypeOfWorkCode": "STOW-141",
+      "unit": "set",
+      "typeCode": "AAA10332026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-395",
+      "name": "SSTOW-395",
+      "subTypeOfWorkCode": "STOW-141",
+      "unit": "pcs",
+      "typeCode": "AAA10342026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-396",
+      "name": "SSTOW-396",
+      "subTypeOfWorkCode": "STOW-142",
+      "unit": "m",
+      "typeCode": "AAA10182026",
+      "zzzCode": "80474401"
+    },
+    {
+      "code": "SSTOW-397",
+      "name": "SSTOW-397",
+      "subTypeOfWorkCode": "STOW-142",
+      "unit": "pcs",
+      "typeCode": "AAA10192026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-398",
+      "name": "SSTOW-398",
+      "subTypeOfWorkCode": "STOW-142",
+      "unit": "pcs",
+      "typeCode": "AAA10352026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-399",
+      "name": "SSTOW-399",
+      "subTypeOfWorkCode": "STOW-142",
+      "unit": "pcs",
+      "typeCode": "AAA10202026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-400",
+      "name": "SSTOW-400",
+      "subTypeOfWorkCode": "STOW-142",
+      "unit": "set",
+      "typeCode": "AAA10362026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-401",
+      "name": "SSTOW-401",
+      "subTypeOfWorkCode": "STOW-142",
+      "unit": "set",
+      "typeCode": "AAA10372026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-402",
+      "name": "SSTOW-402",
+      "subTypeOfWorkCode": "STOW-143",
+      "unit": "pcs",
+      "typeCode": "AAA10222026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-403",
+      "name": "SSTOW-403",
+      "subTypeOfWorkCode": "STOW-143",
+      "unit": "m",
+      "typeCode": "AAA10232026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-404",
+      "name": "SSTOW-404",
+      "subTypeOfWorkCode": "STOW-143",
+      "unit": "set",
+      "typeCode": "AAA10242026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-405",
+      "name": "SSTOW-405",
+      "subTypeOfWorkCode": "STOW-143",
+      "unit": "set",
+      "typeCode": "AAA10382026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-406",
+      "name": "SSTOW-406",
+      "subTypeOfWorkCode": "STOW-143",
+      "unit": "set",
+      "typeCode": "AAA10392026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-407",
+      "name": "SSTOW-407",
+      "subTypeOfWorkCode": "STOW-144",
+      "unit": "-",
+      "typeCode": "AAA10992026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-408",
+      "name": "SSTOW-408",
+      "subTypeOfWorkCode": "STOW-145",
+      "unit": "-",
+      "typeCode": "AAA11012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-409",
+      "name": "SSTOW-409",
+      "subTypeOfWorkCode": "STOW-145",
+      "unit": "pcs",
+      "typeCode": "AAA11022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-410",
+      "name": "SSTOW-410",
+      "subTypeOfWorkCode": "STOW-145",
+      "unit": "m2",
+      "typeCode": "AAA11032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-411",
+      "name": "SSTOW-411",
+      "subTypeOfWorkCode": "STOW-146",
+      "unit": "-",
+      "typeCode": "AAA20012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-412",
+      "name": "SSTOW-412",
+      "subTypeOfWorkCode": "STOW-147",
+      "unit": "-",
+      "typeCode": "AAA20022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-413",
+      "name": "SSTOW-413",
+      "subTypeOfWorkCode": "STOW-148",
+      "unit": "-",
+      "typeCode": "AAA20062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-414",
+      "name": "SSTOW-414",
+      "subTypeOfWorkCode": "STOW-149",
+      "unit": "-",
+      "typeCode": "AAA20052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-415",
+      "name": "SSTOW-415",
+      "subTypeOfWorkCode": "STOW-150",
+      "unit": "t",
+      "typeCode": "AAA20032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-416",
+      "name": "SSTOW-416",
+      "subTypeOfWorkCode": "STOW-151",
+      "unit": "-",
+      "typeCode": "AAA20072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-417",
+      "name": "SSTOW-417",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA20042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-418",
+      "name": "SSTOW-418",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-419",
+      "name": "SSTOW-419",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-420",
+      "name": "SSTOW-420",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-421",
+      "name": "SSTOW-421",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-422",
+      "name": "SSTOW-422",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004102026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-423",
+      "name": "SSTOW-423",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004112026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-424",
+      "name": "SSTOW-424",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004122026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-425",
+      "name": "SSTOW-425",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-426",
+      "name": "SSTOW-426",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-427",
+      "name": "SSTOW-427",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004132026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-428",
+      "name": "SSTOW-428",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004142026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-429",
+      "name": "SSTOW-429",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004152026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-430",
+      "name": "SSTOW-430",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004162026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-431",
+      "name": "SSTOW-431",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004172026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-432",
+      "name": "SSTOW-432",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-433",
+      "name": "SSTOW-433",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-434",
+      "name": "SSTOW-434",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004182026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-435",
+      "name": "SSTOW-435",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004192026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-436",
+      "name": "SSTOW-436",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004202026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-437",
+      "name": "SSTOW-437",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004212026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-438",
+      "name": "SSTOW-438",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004222026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-439",
+      "name": "SSTOW-439",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-440",
+      "name": "SSTOW-440",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004232026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-441",
+      "name": "SSTOW-441",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004242026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-442",
+      "name": "SSTOW-442",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004252026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-443",
+      "name": "SSTOW-443",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004262026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-444",
+      "name": "SSTOW-444",
+      "subTypeOfWorkCode": "STOW-152",
+      "unit": "t",
+      "typeCode": "AAA2004272026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-445",
+      "name": "SSTOW-445",
+      "subTypeOfWorkCode": "STOW-153",
+      "unit": "t",
+      "typeCode": "AAA2004282026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-446",
+      "name": "SSTOW-446",
+      "subTypeOfWorkCode": "STOW-154",
+      "unit": "t",
+      "typeCode": "AAA9001012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-447",
+      "name": "SSTOW-447",
+      "subTypeOfWorkCode": "STOW-154",
+      "unit": "t",
+      "typeCode": "AAA9001022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-448",
+      "name": "SSTOW-448",
+      "subTypeOfWorkCode": "STOW-154",
+      "unit": "t",
+      "typeCode": "AAA9001032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-449",
+      "name": "SSTOW-449",
+      "subTypeOfWorkCode": "STOW-154",
+      "unit": "t",
+      "typeCode": "AAA9001042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-450",
+      "name": "SSTOW-450",
+      "subTypeOfWorkCode": "STOW-154",
+      "unit": "t",
+      "typeCode": "AAA9001052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-451",
+      "name": "SSTOW-451",
+      "subTypeOfWorkCode": "STOW-154",
+      "unit": "t",
+      "typeCode": "AAA9001062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-452",
+      "name": "SSTOW-452",
+      "subTypeOfWorkCode": "STOW-154",
+      "unit": "t",
+      "typeCode": "AAA9001072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-453",
+      "name": "SSTOW-453",
+      "subTypeOfWorkCode": "STOW-154",
+      "unit": "m2",
+      "typeCode": "AAA9001082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-454",
+      "name": "SSTOW-454",
+      "subTypeOfWorkCode": "STOW-154",
+      "unit": "m2",
+      "typeCode": "AAA9001092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-455",
+      "name": "SSTOW-455",
+      "subTypeOfWorkCode": "STOW-155",
+      "unit": "m3",
+      "typeCode": "AAA90022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-456",
+      "name": "SSTOW-456",
+      "subTypeOfWorkCode": "STOW-156",
+      "unit": "-",
+      "typeCode": "AAA91012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-457",
+      "name": "SSTOW-457",
+      "subTypeOfWorkCode": "STOW-157",
+      "unit": "-",
+      "typeCode": "AAA91022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-458",
+      "name": "SSTOW-458",
+      "subTypeOfWorkCode": "STOW-158",
+      "unit": "-",
+      "typeCode": "AAA91032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-459",
+      "name": "SSTOW-459",
+      "subTypeOfWorkCode": "STOW-159",
+      "unit": "-",
+      "typeCode": "AAA91042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-460",
+      "name": "SSTOW-460",
+      "subTypeOfWorkCode": "STOW-160",
+      "unit": "-",
+      "typeCode": "AAA91052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-461",
+      "name": "SSTOW-461",
+      "subTypeOfWorkCode": "STOW-161",
+      "unit": "-",
+      "typeCode": "AAA91062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-462",
+      "name": "SSTOW-462",
+      "subTypeOfWorkCode": "STOW-162",
+      "unit": "-",
+      "typeCode": "AAA92012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-463",
+      "name": "SSTOW-463",
+      "subTypeOfWorkCode": "STOW-163",
+      "unit": "m3",
+      "typeCode": "AAA92022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-464",
+      "name": "SSTOW-464",
+      "subTypeOfWorkCode": "STOW-164",
+      "unit": "-",
+      "typeCode": "AAA92042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-465",
+      "name": "SSTOW-465",
+      "subTypeOfWorkCode": "STOW-165",
+      "unit": "t",
+      "typeCode": "AAA92052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-466",
+      "name": "SSTOW-466",
+      "subTypeOfWorkCode": "STOW-166",
+      "unit": "-",
+      "typeCode": "AAA9204012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-467",
+      "name": "SSTOW-467",
+      "subTypeOfWorkCode": "STOW-167",
+      "unit": "-",
+      "typeCode": "AAA92032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-468",
+      "name": "SSTOW-468",
+      "subTypeOfWorkCode": "STOW-168",
+      "unit": "-",
+      "typeCode": "AAA93012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-469",
+      "name": "SSTOW-469",
+      "subTypeOfWorkCode": "STOW-169",
+      "unit": "-",
+      "typeCode": "AAA93022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-470",
+      "name": "SSTOW-470",
+      "subTypeOfWorkCode": "STOW-170",
+      "unit": "-",
+      "typeCode": "AAA93032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-471",
+      "name": "SSTOW-471",
+      "subTypeOfWorkCode": "STOW-171",
+      "unit": "-",
+      "typeCode": "AAA93042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-472",
+      "name": "SSTOW-472",
+      "subTypeOfWorkCode": "STOW-172",
+      "unit": "-",
+      "typeCode": "AAA93052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-473",
+      "name": "SSTOW-473",
+      "subTypeOfWorkCode": "STOW-173",
+      "unit": "-",
+      "typeCode": "AAA9405012026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-474",
+      "name": "SSTOW-474",
+      "subTypeOfWorkCode": "STOW-173",
+      "unit": "-",
+      "typeCode": "AAA9405022026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-475",
+      "name": "SSTOW-475",
+      "subTypeOfWorkCode": "STOW-174",
+      "unit": "-",
+      "typeCode": "AAA9405032026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-476",
+      "name": "SSTOW-476",
+      "subTypeOfWorkCode": "STOW-175",
+      "unit": "-",
+      "typeCode": "AAA9405042026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-477",
+      "name": "SSTOW-477",
+      "subTypeOfWorkCode": "STOW-176",
+      "unit": "-",
+      "typeCode": "AAA9405052026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-478",
+      "name": "SSTOW-478",
+      "subTypeOfWorkCode": "STOW-176",
+      "unit": "-",
+      "typeCode": "AAA9405062026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-479",
+      "name": "SSTOW-479",
+      "subTypeOfWorkCode": "STOW-176",
+      "unit": "-",
+      "typeCode": "AAA9405072026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-480",
+      "name": "SSTOW-480",
+      "subTypeOfWorkCode": "STOW-177",
+      "unit": "-",
+      "typeCode": "AAA9405082026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-481",
+      "name": "SSTOW-481",
+      "subTypeOfWorkCode": "STOW-177",
+      "unit": "-",
+      "typeCode": "AAA9405092026",
+      "zzzCode": null
+    },
+    {
+      "code": "SSTOW-482",
+      "name": "SSTOW-482",
+      "subTypeOfWorkCode": "STOW-178",
+      "unit": "-",
+      "typeCode": "AAA9405102026",
+      "zzzCode": null
+    }
+  ],
+  "workerTypes": [
+    {
+      "name": "Rebar Fixer"
+    },
+    {
+      "name": "General Labor"
+    },
+    {
+      "name": "Operators"
+    },
+    {
+      "name": "Survey"
+    },
+    {
+      "name": "Slinger"
+    },
+    {
+      "name": "Formworker"
+    },
+    {
+      "name": "Architectural Worker"
+    },
+    {
+      "name": "Assembler"
+    },
+    {
+      "name": "Welder"
+    }
+  ],
+  "zzzDetails": [
+    {
+      "code": "60114402",
+      "name": "ZZZ 60114402"
+    },
+    {
+      "code": "N/A",
+      "name": "ZZZ N/A"
+    },
+    {
+      "code": "60101508",
+      "name": "ZZZ 60101508"
+    },
+    {
+      "code": "60101509",
+      "name": "ZZZ 60101509"
+    }
+  ],
+  "demoUsers": [
+    {
+      "fullName": "Technical Office",
+      "email": "techoffice@icn.com",
+      "role": "TECH_OFFICE",
+      "locationCodes": [
+        "30DDD",
+        "30AAA"
+      ]
+    },
+    {
+      "fullName": "Head Of Master",
+      "email": "hom@icn.com",
+      "role": "HEAD_OF_MASTER",
+      "locationCodes": [
+        "30DDD"
+      ]
+    },
+    {
+      "fullName": "Site Chief",
+      "email": "sitechief@icn.com",
+      "role": "SITE_CHIEF",
+      "locationCodes": [
+        "30DDD",
+        "30AAA"
+      ]
+    },
+    {
+      "fullName": "Project Manager",
+      "email": "pm@icn.com",
+      "role": "PROJECT_MANAGER",
+      "locationCodes": [
+        "30DDD"
+      ]
+    },
+    {
+      "fullName": "Admin",
+      "email": "admin@icn.com",
+      "role": "ADMIN",
+      "locationCodes": [
+        "30DDD"
+      ]
+    }
+  ]
+}

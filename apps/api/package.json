@@ -1,0 +1,41 @@
+{
+  "name": "@wfp/api",
+  "private": true,
+  "type": "commonjs",
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "scripts": {
+    "start:dev": "tsx watch --env-file=.env src/main.ts",
+    "build": "pnpm --filter @wfp/shared build && nest build",
+    "start": "node dist/main.js",
+    "typecheck": "pnpm --filter @wfp/shared build && tsc --noEmit",
+    "test": "tsx test/api-scenarios.test.ts",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
+    "prisma:migrate": "prisma migrate dev",
+    "db:generate": "pnpm prisma:generate",
+    "db:push": "pnpm prisma:push",
+    "db:migrate": "pnpm prisma:migrate",
+    "db:seed": "prisma db seed",
+    "db:setup": "pnpm db:generate && pnpm db:push && pnpm db:seed",
+    "wbs:import": "python scripts/import_wbs_excel.py"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.27",
+    "@nestjs/core": "^11.1.27",
+    "@nestjs/platform-express": "^11.1.27",
+    "@prisma/client": "^6.16.2",
+    "@wfp/shared": "workspace:*",
+    "ioredis": "^5.4.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.23",
+    "@types/node": "^26.1.0",
+    "prisma": "^6.16.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}

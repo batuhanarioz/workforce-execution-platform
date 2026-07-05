@@ -1,0 +1,13 @@
+**/node_modules
+**/dist
+**/.next
+**/.expo
+**/coverage
+**/.turbo
+**/.DS_Store
+**/.git
+**/.cache
+**/tmp
+**/*.log
+apps/mobile/android
+apps/mobile/ios

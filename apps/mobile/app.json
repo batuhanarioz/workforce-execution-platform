@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Workforce Execution Platform",
+    "slug": "workforce-execution-platform",
+    "scheme": "wfp",
+    "plugins": [
+      "expo-secure-store",
+      "expo-sqlite"
+    ]
+  }
+}
