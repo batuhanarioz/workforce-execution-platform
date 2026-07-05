@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
+import bcrypt from "bcryptjs";
 import {
   ActualWorkStatus,
   ApprovalAction,
@@ -125,16 +126,18 @@ async function main() {
     });
   }
 
+  const demoPasswordHash = bcrypt.hashSync("demo", 10);
+
   for (const user of data.demoUsers) {
     const role = await prisma.role.findUnique({ where: { name: user.role } });
     if (!role) continue;
     const created = await prisma.user.upsert({
       where: { email: user.email },
-      update: { fullName: user.fullName, roleId: role.id },
+      update: { fullName: user.fullName, roleId: role.id, passwordHash: demoPasswordHash },
       create: {
         fullName: user.fullName,
         email: user.email,
-        passwordHash: "seeded-password",
+        passwordHash: demoPasswordHash,
         roleId: role.id,
       },
     });

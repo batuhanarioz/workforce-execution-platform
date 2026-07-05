@@ -10,7 +10,7 @@
     "build": "pnpm --filter @wfp/shared build && nest build",
     "start": "node dist/main.js",
     "typecheck": "pnpm --filter @wfp/shared build && tsc --noEmit",
-    "test": "tsx test/api-scenarios.test.ts",
+    "test": "WFP_AUTH_SECRET=test-only-secret tsx test/api-scenarios.test.ts",
     "prisma:generate": "prisma generate",
     "prisma:push": "prisma db push",
     "prisma:migrate": "prisma migrate dev",
@@ -27,12 +27,14 @@
     "@nestjs/platform-express": "^11.1.27",
     "@prisma/client": "^6.16.2",
     "@wfp/shared": "workspace:*",
+    "bcryptjs": "^2.4.3",
     "ioredis": "^5.4.1",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
     "@nestjs/cli": "^11.0.23",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^26.1.0",
     "prisma": "^6.16.2",
     "tsx": "^4.22.4",

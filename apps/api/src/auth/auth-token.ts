@@ -1,10 +1,20 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
-import { type JwtPayload, type UserRole } from "@wfp/shared";
+import { type JwtPayload } from "@wfp/shared";
 
-const AUTH_SECRET = process.env.WFP_AUTH_SECRET ?? "wfp-dev-auth-secret";
+function requireAuthSecret(): string {
+  const secret = process.env.WFP_AUTH_SECRET;
+  if (!secret) {
+    throw new Error(
+      "WFP_AUTH_SECRET environment variable is required. Refusing to start with an insecure default signing secret."
+    );
+  }
+  return secret;
+}
+
+const AUTH_SECRET = requireAuthSecret();
+
 const ACCESS_PREFIX = "wfp-access";
 const REFRESH_PREFIX = "wfp-refresh";
-const LEGACY_ACCESS_PREFIX = "access-";
 
 type TokenKind = "access" | "refresh";
 
@@ -13,9 +23,7 @@ type SignedTokenPayload = JwtPayload & {
   issuedAt: string;
 };
 
-export type VerifiedAuthToken =
-  | (SignedTokenPayload & { legacy: false })
-  | (JwtPayload & { legacy: true });
+export type VerifiedAuthToken = SignedTokenPayload;
 
 function encodePayload(payload: SignedTokenPayload) {
   return Buffer.from(JSON.stringify(payload), "utf8").toString("base64url");
@@ -60,21 +68,6 @@ export function createRefreshToken(payload: JwtPayload) {
 }
 
 export function verifyAccessToken(token: string): VerifiedAuthToken | null {
-  if (token.startsWith(LEGACY_ACCESS_PREFIX)) {
-    const sub = token.slice(LEGACY_ACCESS_PREFIX.length);
-    if (!sub) {
-      return null;
-    }
-
-    return {
-      legacy: true,
-      sub,
-      role: "TECH_OFFICE" as UserRole,
-      email: "dev@example.com",
-      tokenVersion: 1,
-    };
-  }
-
   const [prefix, rawPayload, signature] = token.split(".");
   if (prefix !== ACCESS_PREFIX || !rawPayload || !signature) {
     return null;
@@ -90,7 +83,6 @@ export function verifyAccessToken(token: string): VerifiedAuthToken | null {
   }
 
   return {
-    legacy: false,
     sub: payload.sub,
     role: payload.role,
     email: payload.email,

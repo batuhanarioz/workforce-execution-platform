@@ -145,7 +145,14 @@ test("each web role lands on the correct workspace and sees the correct action s
       actionLabel: "Planning",
       roleTextEn: "Planning",
       roleTextTr: "Planlama",
-      approvals: { canApproveHeadMaster: false, canApproveSiteChief: false, canApproveProjectManager: false, canOpenAdminReview: false },
+      approvals: {
+        canApproveHeadMaster: false,
+        canApproveSiteChief: false,
+        canApproveProjectManager: false,
+        canReturnForRevision: false,
+        canReject: false,
+        canOpenAdminReview: false,
+      },
     },
     {
       role: "HEAD_OF_MASTER",
@@ -154,7 +161,14 @@ test("each web role lands on the correct workspace and sees the correct action s
       actionLabel: "Execution",
       roleTextEn: "Execution",
       roleTextTr: "Saha yürütme",
-      approvals: { canApproveHeadMaster: true, canApproveSiteChief: false, canApproveProjectManager: false, canOpenAdminReview: false },
+      approvals: {
+        canApproveHeadMaster: true,
+        canApproveSiteChief: false,
+        canApproveProjectManager: false,
+        canReturnForRevision: true,
+        canReject: false,
+        canOpenAdminReview: false,
+      },
     },
     {
       role: "SITE_CHIEF",
@@ -163,7 +177,14 @@ test("each web role lands on the correct workspace and sees the correct action s
       actionLabel: "Reports",
       roleTextEn: "Site review",
       roleTextTr: "Şantiye inceleme",
-      approvals: { canApproveHeadMaster: false, canApproveSiteChief: true, canApproveProjectManager: false, canOpenAdminReview: false },
+      approvals: {
+        canApproveHeadMaster: false,
+        canApproveSiteChief: true,
+        canApproveProjectManager: false,
+        canReturnForRevision: true,
+        canReject: true,
+        canOpenAdminReview: false,
+      },
     },
     {
       role: "PROJECT_MANAGER",
@@ -172,7 +193,14 @@ test("each web role lands on the correct workspace and sees the correct action s
       actionLabel: "Reports",
       roleTextEn: "Project review",
       roleTextTr: "Proje inceleme",
-      approvals: { canApproveHeadMaster: false, canApproveSiteChief: false, canApproveProjectManager: true, canOpenAdminReview: false },
+      approvals: {
+        canApproveHeadMaster: false,
+        canApproveSiteChief: false,
+        canApproveProjectManager: true,
+        canReturnForRevision: true,
+        canReject: true,
+        canOpenAdminReview: false,
+      },
     },
     {
       role: "ADMIN",
@@ -181,7 +209,14 @@ test("each web role lands on the correct workspace and sees the correct action s
       actionLabel: "Manage users",
       roleTextEn: "Admin",
       roleTextTr: "Yönetici",
-      approvals: { canApproveHeadMaster: true, canApproveSiteChief: true, canApproveProjectManager: true, canOpenAdminReview: true },
+      approvals: {
+        canApproveHeadMaster: false,
+        canApproveSiteChief: false,
+        canApproveProjectManager: false,
+        canReturnForRevision: false,
+        canReject: true,
+        canOpenAdminReview: true,
+      },
     },
   ] as const;
 

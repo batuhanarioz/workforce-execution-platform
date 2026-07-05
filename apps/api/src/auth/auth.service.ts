@@ -1,4 +1,5 @@
-import { Inject, Injectable } from "@nestjs/common";
+import { Inject, Injectable, UnauthorizedException } from "@nestjs/common";
+import bcrypt from "bcryptjs";
 import { LoginDto } from "./dto/login.dto";
 import { AuthenticatedUser, UserRole, type UserSummary } from "@wfp/shared";
 import { UserRole as PrismaUserRole } from "@prisma/client";
@@ -16,7 +17,7 @@ export class AuthService {
   async login(dto: LoginDto, auditContext?: AuditContext) {
     const normalizedEmail = dto.email.trim().toLowerCase();
 
-    let record: Parameters<AuthService["mapUser"]>[0] | null = null;
+    let record: (Parameters<AuthService["mapUser"]>[0] & { passwordHash: string; isActive: boolean }) | null = null;
     try {
       record = await this.prisma.user.findUnique({
         where: { email: normalizedEmail },
@@ -36,9 +37,14 @@ export class AuthService {
       record = null;
     }
 
-    const user = record
-      ? this.mapUser(record)
-      : this.fallbackUser(normalizedEmail);
+    const passwordMatches = record ? await bcrypt.compare(dto.password, record.passwordHash) : false;
+
+    if (!record || !record.isActive || !passwordMatches) {
+      void this.recordLoginFailure(normalizedEmail, auditContext);
+      throw new UnauthorizedException("Invalid email or password.");
+    }
+
+    const user = this.mapUser(record);
 
     const response = {
       success: true,
@@ -139,43 +145,5 @@ export class AuthService {
       locations: record.assignments.map((assignment) => assignment.location),
       tokenVersion: record.tokenVersion,
     };
-  }
-
-  private fallbackUser(email: string): AuthenticatedUser {
-    const role = this.resolveRole(email);
-    return {
-      id: "dev-user-1",
-      fullName: "Dev User",
-      email,
-      role,
-      locations: [
-        {
-          id: "dev-location-1",
-          code: "30AAA",
-          name: "Location 30AAA",
-        },
-      ],
-      tokenVersion: 1,
-    };
-  }
-
-  private resolveRole(email: string): UserRole {
-    if (email.includes("hom")) {
-      return UserRole.HEAD_OF_MASTER;
-    }
-
-    if (email.includes("site")) {
-      return UserRole.SITE_CHIEF;
-    }
-
-    if (email.includes("pm")) {
-      return UserRole.PROJECT_MANAGER;
-    }
-
-    if (email.includes("admin")) {
-      return UserRole.ADMIN;
-    }
-
-    return UserRole.TECH_OFFICE;
   }
 }

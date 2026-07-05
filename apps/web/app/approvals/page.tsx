@@ -353,12 +353,16 @@ export default function ApprovalsPage() {
                     {strings.approveProjectManager}
                   </button>
                 ) : null}
-                <button className="secondary" type="button" onClick={() => act("return")} disabled={!selectedFactId}>
-                  {strings.returnForRevision}
-                </button>
-                <button className="ghost" type="button" onClick={() => act("reject")} disabled={!selectedFactId}>
-                  {strings.reject}
-                </button>
+                {approvalCapabilities.canReturnForRevision ? (
+                  <button className="secondary" type="button" onClick={() => act("return")} disabled={!selectedFactId}>
+                    {strings.returnForRevision}
+                  </button>
+                ) : null}
+                {approvalCapabilities.canReject ? (
+                  <button className="ghost" type="button" onClick={() => act("reject")} disabled={!selectedFactId}>
+                    {strings.reject}
+                  </button>
+                ) : null}
               </div>
             ) : (
               <div className="notice" style={{ marginTop: 16 }}>

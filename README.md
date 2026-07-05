@@ -25,6 +25,7 @@ packages/config Ortak yapılandırma
 
 ```bash
 pnpm install
+cp apps/api/.env.example apps/api/.env   # WFP_AUTH_SECRET değerini kendi rastgele değerinle değiştir
 pnpm --dir apps/api db:setup
 pnpm dev:api
 pnpm dev:web
@@ -33,6 +34,7 @@ pnpm dev:web
 ## Docker ile Çalıştırma
 
 ```bash
+cp .env.example .env   # WFP_AUTH_SECRET değerini kendi rastgele değerinle değiştir, örn: openssl rand -hex 32
 docker compose up --build
 ```
 

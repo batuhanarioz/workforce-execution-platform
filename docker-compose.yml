@@ -36,6 +36,7 @@ services:
       REDIS_URL: redis://redis:6379
       PORT: 3001
       NODE_ENV: production
+      WFP_AUTH_SECRET: "${WFP_AUTH_SECRET:?Set WFP_AUTH_SECRET in your .env file (see .env.example)}"
     ports:
       - "3001:3001"
     depends_on:

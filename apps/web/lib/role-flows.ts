@@ -70,11 +70,16 @@ export function getDashboardRoleText(locale: Locale, role?: string) {
   }
 }
 
+// Mirrors the backend @Roles() lists in apps/api/src/approvals/approvals.controller.ts —
+// ADMIN can view the queue and reject facts but is not part of the three-step approval
+// chain and cannot return facts for revision.
 export function getApprovalCapabilities(role?: string) {
   return {
-    canApproveHeadMaster: role === "HEAD_OF_MASTER" || role === "ADMIN",
-    canApproveSiteChief: role === "SITE_CHIEF" || role === "ADMIN",
-    canApproveProjectManager: role === "PROJECT_MANAGER" || role === "ADMIN",
+    canApproveHeadMaster: role === "HEAD_OF_MASTER",
+    canApproveSiteChief: role === "SITE_CHIEF",
+    canApproveProjectManager: role === "PROJECT_MANAGER",
+    canReturnForRevision: role === "HEAD_OF_MASTER" || role === "SITE_CHIEF" || role === "PROJECT_MANAGER",
+    canReject: role === "SITE_CHIEF" || role === "PROJECT_MANAGER" || role === "ADMIN",
     canOpenAdminReview: role === "ADMIN",
   };
 }

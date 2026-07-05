@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import bcrypt from "bcryptjs";
 import { AuthService } from "../src/auth/auth.service";
 import { verifyAccessToken } from "../src/auth/auth-token";
 import { DailyFactsService } from "../src/daily-facts/daily-facts.service";
@@ -170,7 +171,7 @@ test("workflow rules reject invalid submissions and preserve approval order", ()
   assert.throws(() => assertApprovalAllowed(DailyFactStatus.APPROVED_BY_HEAD_OF_MASTER, UserRole.PROJECT_MANAGER), /Project Manager approval requires Site Chief approval/);
 });
 
-test("auth service normalizes emails and falls back to role-based demo users", async () => {
+test("auth service rejects unknown emails without deriving a role from the address", async () => {
   const prisma = {
     user: {
       findUnique: async () => null,
@@ -179,18 +180,11 @@ test("auth service normalizes emails and falls back to role-based demo users", a
   } as unknown as PrismaService;
 
   const service = new AuthService(prisma, auditLogsService);
-  const response = await service.login({ email: "  SiteChief@icn.com ", password: "anything" });
 
-  assert.equal(response.success, true);
-  assert.equal(response.data.user.email, "sitechief@icn.com");
-  assert.equal(response.data.user.role, UserRole.SITE_CHIEF);
-  assert.match(response.data.accessToken, /^wfp-access\./);
-  assert.match(response.data.refreshToken, /^wfp-refresh\./);
-
-  const verified = verifyAccessToken(response.data.accessToken);
-  assert.ok(verified);
-  assert.equal(verified?.sub, "dev-user-1");
-  assert.equal(verified?.legacy, false);
+  await assert.rejects(
+    () => service.login({ email: "  Admin-looking-email@icn.com ", password: "anything" }),
+    /Invalid email or password/
+  );
 });
 
 test("auth service maps real directory records into summaries", async () => {
@@ -221,7 +215,8 @@ test("auth service maps real directory records into summaries", async () => {
   assert.equal(response.data[0]?.locations[0]?.code, "30AAA");
 });
 
-test("auth service prefers persisted users over fallback demo accounts", async () => {
+test("auth service verifies the password hash before issuing a token", async () => {
+  const correctPasswordHash = bcrypt.hashSync("correct-horse", 10);
   const prisma = {
     user: {
       findUnique: async () => ({
@@ -229,6 +224,8 @@ test("auth service prefers persisted users over fallback demo accounts", async (
         fullName: "Real Homer",
         email: "hom@example.com",
         tokenVersion: 4,
+        isActive: true,
+        passwordHash: correctPasswordHash,
         role: { name: "HEAD_OF_MASTER" },
         assignments: [
           { location: { id: "loc-1", code: "30AAA", name: "Location 30AAA" } },
@@ -239,13 +236,23 @@ test("auth service prefers persisted users over fallback demo accounts", async (
   } as unknown as PrismaService;
 
   const service = new AuthService(prisma, auditLogsService);
-  const response = await service.login({ email: "HOM@example.com", password: "anything" });
+
+  await assert.rejects(
+    () => service.login({ email: "HOM@example.com", password: "wrong-password" }),
+    /Invalid email or password/
+  );
+
+  const response = await service.login({ email: "HOM@example.com", password: "correct-horse" });
 
   assert.equal(response.data.user.id, "user-10");
   assert.equal(response.data.user.email, "hom@example.com");
   assert.equal(response.data.user.role, UserRole.HEAD_OF_MASTER);
   assert.equal(response.data.user.locations[0]?.code, "30AAA");
   assert.match(response.data.accessToken, /^wfp-access\./);
+
+  const verified = verifyAccessToken(response.data.accessToken);
+  assert.ok(verified);
+  assert.equal(verified?.sub, "user-10");
 });
 
 test("auth service records failed login attempts with anonymous audit entries", async () => {
